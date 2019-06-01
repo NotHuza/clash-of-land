@@ -1,0 +1,100 @@
+﻿1>------ Build started: Project: ClashLand, Configuration: Debug Any CPU ------
+1>  The system cannot find the file specified.
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\ClashLandGUI.cs(47,38,47,68): warning CS0618: 'Dns.Resolve(string)' is obsolete: 'Resolve is obsoleted for this type, please use GetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202'
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Core\Clans.cs(52,17,52,32): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Core\Clans.cs(255,29,255,33): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Core\Clans.cs(318,29,318,33): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Core\Exceptions.cs(23,17,23,27): warning CS0162: Unreachable code detected
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Core\Exceptions.cs(62,17,62,28): warning CS0162: Unreachable code detected
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Extensions\List\Writer.cs(134,17,134,24): warning CS0162: Unreachable code detected
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Core\Consoles\Colorful\ColorfulConsoleFront.cs(305,43,305,45): warning CS0168: The variable 'ex' is declared but never used
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Device.cs(58,17,58,21): warning CS0162: Unreachable code detected
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Device.cs(100,29,100,36): warning CS0162: Unreachable code detected
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Device.cs(102,42,102,44): warning CS0168: The variable 'ex' is declared but never used
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Device.cs(111,42,111,44): warning CS0168: The variable 'ex' is declared but never used
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Messages\Client\Clans\Create_Alliance.cs(68,17,68,48): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Messages\Client\Clans\Create_Alliance.cs(77,17,77,50): warning CS0612: 'Clans.Delete(Clan)' is obsolete
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Player.cs(105,53,105,71): warning CS0649: Field 'Player.Legendary_Trophies' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Command.cs(20,22,20,30): warning CS0649: Field 'Command.SubLowID' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Player.cs(97,51,97,57): warning CS0649: Field 'Player.Streak' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Messages\Client\Clans\Search_Clans.cs(26,16,26,31): warning CS0649: Field 'Search_Clans.m_vSearchString' is never assigned to, and will always have its default value null
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Structure\API\Gamecenter.cs(15,51,15,62): warning CS0649: Field 'Gamecenter.Certificate' is never assigned to, and will always have its default value null
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Messages\Client\Battle\Attack_War.cs(12,22,12,28): warning CS0649: Field 'Attack_War.Npc_ID' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Structure\Slots\Battle_V2.cs(5,22,5,30): warning CS0649: Field 'Battle_V2.BattleID' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Structure\Slots\Battle_V2.cs(8,23,8,30): warning CS0649: Field 'Battle_V2.Started' is never assigned to, and will always have its default value false
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Player.cs(94,45,94,49): warning CS0649: Field 'Player.Wins' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Structure\Slots\Battle_V2.cs(7,22,7,30): warning CS0649: Field 'Battle_V2.Checksum' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Clan.cs(27,51,27,61): warning CS0649: Field 'Clan.Experience' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Structure\Slots\Items\Replay_Stats.cs(35,114,35,135): warning CS0649: Field 'Replay_Stats.Deployed_HousingSpace' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Clan.cs(30,44,30,51): warning CS0649: Field 'Clan.Won_War' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Messages\Server\Authentication\Authentication_OK.cs(24,22,24,36): warning CS0649: Field 'Authentication_OK.ContentVersion' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Command.cs(17,22,17,30): warning CS0649: Field 'Command.SubTick2' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Structure\Slots\Items\Event.cs(16,48,16,55): warning CS0649: Field 'Event.Version' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Player.cs(96,46,96,51): warning CS0649: Field 'Player.Games' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Messages\Server\Authentication\Authentication_OK.cs(23,22,23,40): warning CS0649: Field 'Authentication_OK.ServerMajorVersion' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Command.cs(19,22,19,31): warning CS0649: Field 'Command.SubHighID' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Structure\API\Gamecenter.cs(16,50,16,59): warning CS0649: Field 'Gamecenter.AppBundle' is never assigned to, and will always have its default value null
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Device.cs(24,37,24,46): warning CS0649: Field 'Device.Last_Tick' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Structure\Slots\Items\Functions.cs(9,56,9,66): warning CS0649: Field 'Functions.Parameters' is never assigned to, and will always have its default value null
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Structure\Slots\Items\Mail.cs(13,48,13,62): warning CS0649: Field 'Mail.Message_HighID' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Messages\Client\Battle\Search_Opponent.cs(18,24,18,36): warning CS0649: Field 'Search_Opponent.Enemy_Player' is never assigned to, and will always have its default value null
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Structure\Slots\Items\Replay_Stats.cs(37,118,37,144): warning CS0649: Field 'Replay_Stats.Army_Deployment_Percentage' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Debugs\Set_Mode.cs(12,32,12,36): warning CS0649: Field 'Set_Mode.Help' is never assigned to, and will always have its default value null
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Player.cs(95,46,95,51): warning CS0649: Field 'Player.Loses' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Commands\Client\Clan\Send_Mail.cs(14,22,14,26): warning CS0649: Field 'Send_Mail.Tick' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Structure\API\Gamecenter.cs(14,49,14,59): warning CS0649: Field 'Gamecenter.Identifier' is never assigned to, and will always have its default value null
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Message.cs(24,22,24,28): warning CS0649: Field 'Message.Offset' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Structure\Slots\Items\Entry.cs(12,48,12,62): warning CS0649: Field 'Entry.Message_HighID' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Clan.cs(28,46,28,62): warning CS0649: Field 'Clan.Hide_From_Public' is never assigned to, and will always have its default value false
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Messages\Server\Authentication\Authentication_Failed.cs(31,25,31,39): warning CS0649: Field 'Authentication_Failed.RedirectDomain' is never assigned to, and will always have its default value null
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Clan.cs(31,45,31,53): warning CS0649: Field 'Clan.Lost_War' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Messages\Client\Authentication\Authentication.cs(33,54,33,58): warning CS0649: Field 'Authentication.UDID' is never assigned to, and will always have its default value null
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Structure\Slots\Battle_V2.cs(6,22,6,26): warning CS0649: Field 'Battle_V2.Tick' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Structure\Slots\Items\Event.cs(12,45,12,49): warning CS0649: Field 'Event.Type' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Command.cs(16,22,16,30): warning CS0649: Field 'Command.SubTick1' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Device.cs(24,22,24,35): warning CS0649: Field 'Device.Last_Checksum' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Structure\Slots\Items\Member.cs(12,50,12,59): warning CS0649: Field 'Member.Donations' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Structure\Slots\Items\Replay_Stats.cs(9,106,9,118): warning CS0649: Field 'Replay_Stats.Battle_Ended' is never assigned to, and will always have its default value false
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Structure\Slots\Items\Event.cs(14,43,14,45): warning CS0649: Field 'Event.ID' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Structure\Slots\Items\Member.cs(13,49,13,57): warning CS0649: Field 'Member.Received' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Device.cs(22,76,22,87): warning CS0649: Field 'Device.AdvertiseID' is never assigned to, and will always have its default value null
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Messages\Client\Battle\Search_Opponent.cs(16,23,16,31): warning CS0649: Field 'Search_Opponent.Enemy_ID' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Device.cs(22,89,22,97): warning CS0649: Field 'Device.VendorID' is never assigned to, and will always have its default value null
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Logic\Clan.cs(32,45,32,53): warning CS0649: Field 'Clan.Draw_War' is never assigned to, and will always have its default value 0
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Messages\Client\Battle\Search_Opponent.cs(17,23,17,40): warning CS0649: Field 'Search_Opponent.Max_Seed_Achieved' is never assigned to, and will always have its default value false
+1>E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Packets\Messages\Server\Authentication\Authentication_OK.cs(22,22,22,33): warning CS0649: Field 'Authentication_OK.ServerBuild' is never assigned to, and will always have its default value 0
+1>  ClashLand -> E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\CLS_v2018.exe
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\EntityFramework.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\EntityFramework.SqlServer.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Facebook.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Auth.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Auth.PlatformServices.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Core.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Games.v1.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.PlatformServices.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Protobuf.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Ionic.Zip.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Joveler.ZLibWrapper.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\MaterialSkin.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\MaxMind.Db.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\MaxMind.GeoIP2.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\MySql.Data.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\MySql.Data.Entity.EF6.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Newtonsoft.Json.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\NLog.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\NLog.StructuredEvents.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\SharpRaven.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\StackExchange.Redis.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\System.IO.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\System.Net.Http.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\System.Runtime.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.Algorithms.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.Encoding.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.Primitives.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.X509Certificates.dll
+1>  E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Z.EntityFramework.Extensions.dll
+1>         31 file(s) moved.
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+# clash-of-land
