@@ -1,4 +1,2 @@
 # clash-of-land
-# clash-of-land
-# clash-of-land
-"# clash-of-land" 
+Clash od clans
