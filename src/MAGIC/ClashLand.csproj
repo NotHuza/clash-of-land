@@ -248,6 +248,9 @@
     <Compile Include="Core\Consoles\Colorful\TextFormatter.cs" />
     <Compile Include="Core\Consoles\Colorful\TextPattern.cs" />
     <Compile Include="Core\Consoles\Colorful\TextPatternCollection.cs" />
+    <Compile Include="Core\Consoles\HotKeyManager.cs" />
+    <Compile Include="Core\Consoles\Prefixed.cs" />
+    <Compile Include="Core\Consoles\RedisTextWriter.cs" />
     <Compile Include="Core\Database\Battle.cs">
       <DependentUpon>Mysql.tt</DependentUpon>
     </Compile>
@@ -357,12 +360,18 @@
     <Compile Include="Files\Game_Events.cs" />
     <Compile Include="Files\Home.cs" />
     <Compile Include="Files\NPC.cs" />
+    <Compile Include="Logic\Achievement.cs" />
+    <Compile Include="Logic\Achievements.cs" />
+    <Compile Include="Logic\AchievementsSlot.cs" />
     <Compile Include="Logic\Device.RC4.cs" />
+    <Compile Include="Logic\Enums\Booster.cs" />
+    <Compile Include="Logic\Enums\Layouts.cs" />
     <Compile Include="Logic\Enums\Mode.cs" />
     <Compile Include="Logic\Manager\AchievementManager.cs" />
     <Compile Include="Logic\Structure\Slots\Battle_V2.cs" />
     <Compile Include="Logic\Structure\Slots\Bookmark.cs" />
     <Compile Include="Logic\Structure\Slots\Items\Achievement.cs" />
+    <Compile Include="Logic\Structure\Slots\Items\Alliance_Games.cs" />
     <Compile Include="Logic\Structure\Slots\Items\Battle_V2.cs" />
     <Compile Include="Logic\Battle.cs" />
     <Compile Include="Logic\Clan.cs" />
@@ -444,6 +453,7 @@
     <Compile Include="Logic\Structure\Slots\Items\Replay_Info.cs" />
     <Compile Include="Logic\Structure\Slots\Items\Replay_Stats.cs" />
     <Compile Include="Logic\Structure\Slots\Items\Slot.cs" />
+    <Compile Include="Logic\Structure\Slots\Items\Trader.cs" />
     <Compile Include="Logic\Structure\Slots\Items\Village_2.cs" />
     <Compile Include="Logic\Structure\Slots\Members.cs" />
     <Compile Include="Logic\Structure\Slots\Npcs.cs" />
@@ -458,6 +468,8 @@
     <Compile Include="Logic\Structure\Trap.cs" />
     <Compile Include="Logic\Structure\Builder_Village_Object .cs" />
     <Compile Include="Logic\Structure\Village_Object.cs" />
+    <Compile Include="Packets\Commands\Client\Load_clijent_Tick.cs" />
+    <Compile Include="Packets\Messages\Client\Cancel_frend_pvp_Normal_base.cs" />
     <Compile Include="Packets\Command.cs" />
     <Compile Include="Packets\CommandFactory.cs" />
     <Compile Include="Packets\Commands\Client\Battle\Hero_Rage.cs" />
@@ -670,11 +682,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Mysql.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Test.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -682,6 +689,9 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Mysql.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <None Include="CLS.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Core\Database\Mysql.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Mysql.edmx</DependentUpon>
@@ -1156,10 +1166,6 @@
   <ItemGroup>
     <EmbeddedResource Include="ClashLandGUI.resx">
       <DependentUpon>ClashLandGUI.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

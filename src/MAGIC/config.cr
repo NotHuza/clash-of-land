@@ -24,7 +24,7 @@
   <!-- MySql Username -->
   <add key="MysqlUsername" value="root" />
   <!-- MySql Username -->
-  <add key="MysqlPassword" value="" />
+  <add key="MysqlPassword" value="ascent" />
   <!--  MySql server password-->
   <add key="MysqlDatabase" value="Clash" />
   <!-- Mysql Database -->

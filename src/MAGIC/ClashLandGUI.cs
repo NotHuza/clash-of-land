@@ -66,7 +66,7 @@ namespace ClashLandGUI
             txtPatchURL.Text = ConfigurationManager.AppSettings["PatchUrl"];
             txtDatabaseType.Text = ConfigurationManager.AppSettings["MysqlDatabase"];
             //txtPort.Text = ConfigurationManager.AppSettings["ServerPort"];
-            //txtAdminMessage.Text = ConfigurationManager.AppSettings["AdminMessage"];
+            txtAdminMessage.Text = ConfigurationManager.AppSettings["AdminMessage"];
             //txtLogLevel.Text = ConfigurationManager.AppSettings["LogLevel"];
             txtClientVersion.Text = ConfigurationManager.AppSettings["ClientVersion"];
 
@@ -213,9 +213,9 @@ namespace ClashLandGUI
                 {
                     //(ie.Current as XmlNode).Attributes["value"].Value = txtPort.Text;
                 }
-                //if ((ie.Current as XmlNode).Attributes["key"].Value == "AdminMessage")
+                if ((ie.Current as XmlNode).Attributes["key"].Value == "AdminMessage")
                 {
-                    //(ie.Current as XmlNode).Attributes["value"].Value = txtAdminMessage.Text;
+                    (ie.Current as XmlNode).Attributes["value"].Value = txtAdminMessage.Text;
                 }
                 //if ((ie.Current as XmlNode).Attributes["key"].Value == "LogLevel")
                 {
