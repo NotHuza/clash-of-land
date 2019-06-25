@@ -1,4 +1,4 @@
-﻿namespace GL.Servers.Core.Consoles
+﻿namespace ClashLand.Core.Consoles
 {
     using System.Diagnostics;
     using System.IO;

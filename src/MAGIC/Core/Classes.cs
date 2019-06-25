@@ -36,12 +36,12 @@ namespace ClashLand.Core
             this.Npc = new NPC();
             this.Game_Events = new Game_Events();
             this.Fingerprint = new Fingerprint();
-            //switch (Constants.Database)
+            switch (Constants.Database)
             {
-              /*  case DBMS.Redis:
+                case DBMS.Redis:
                 case DBMS.Both:
                     this.Redis = new Redis();
-                    break;*/
+                    break;
             }
             
             this.Events = new EventsHandler();
