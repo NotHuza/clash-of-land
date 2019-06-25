@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MysqlModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Clan">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" />
+    <Property Name="Data" Type="String" Nullable="false" MaxLength="16777215" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Player">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" />
+    <Property Name="Trophies" Type="Int32" Nullable="false" />
+    <Property Name="FacebookID" Type="String" Nullable="false" MaxLength="65535" FixedLength="false" Unicode="false" />
+    <Property Name="Avatar" Type="String" Nullable="false" MaxLength="16777215" FixedLength="false" Unicode="false" />
+    <Property Name="Village" Type="String" Nullable="false" MaxLength="16777215" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Battle">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" />
+    <Property Name="Data" Type="String" Nullable="false" MaxLength="16777215" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="MysqlEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Clan" EntityType="Self.Clan" />
+    <EntitySet Name="Player" EntityType="Self.Player" />
+    <EntitySet Name="Battle" EntityType="Self.Battle" />
+  </EntityContainer>
+</Schema>

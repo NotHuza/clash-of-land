@@ -1,0 +1,813 @@
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\obj\Debug\ClashLand.csprojResolveAssemblyReference.cache
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\obj\Debug\CLS_v2018.g.resources
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\obj\Debug\ClashLand.csproj.CoreCompileInputs.cache
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\obj\Debug\CLS_v2018.exe
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\obj\Debug\CLS_v2018.pdb
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Tools\BarbarianLand Assets Hasher.exe
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Tools\BarbarianLand Assets LZMA.exe
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Tools\database.sql
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\events.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\fingerprint.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\animations.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\billing_packages.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\boombox.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\client_globals.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\credits.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\deeplinks.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\event_entries.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\faq.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\helpshift.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\hints.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\news.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\particle_emitters.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\resource_packs.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\building_levels.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc1.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc10.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc11.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc12.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc13.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc14.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc15.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc16.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc17.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc18.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc19.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc2.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc20.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc21.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc22.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc23.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc24.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc25.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc26.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc27.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc28.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc29.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc3.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc30.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc31.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc32.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc33.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc34.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc35.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc36.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc37.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc38.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc39.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc4.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc40.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc41.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc42.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc43.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc44.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc45.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc46.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc47.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc48.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc5.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc6.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc7.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc8.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc9.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\scrambled.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\starting_home.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel1.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel10.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel11.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel2.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel3.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel4.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel5.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel6.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel7.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel8.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel9.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest0.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest1.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest2.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest3.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest4.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest5.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall1.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall10.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall11.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall1v2.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall2.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall2v2.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall3.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall3v2.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall4.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall4v2.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall5.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall5v2.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall6.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall6v2.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall7.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall7v2.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall8.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall8v2.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall9.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\tutorial_npc.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\tutorial_npc2.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\v2_tutorial.json
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\achievements.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\alliance_badges.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\alliance_badge_layers.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\alliance_levels.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\alliance_portal.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\buildings.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\building_classes.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\calendar_event_functions.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\characters.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\decos.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\effects.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\experience_levels.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\gem_bundles.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\globals.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\heroes.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\leagues.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\leagues2.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\locales.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\missions.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\npcs.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\projectiles.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\regions.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\resources.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\shields.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\spells.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\townhall_levels.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\traps.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\variables.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\village_objects.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\war.csv
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Tools\Patch.bat
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\config.cr
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\database\Database.mmdb
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\NLog.config
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\CLS_v2018.exe.config
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\CLS_v2018.exe
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\CLS_v2018.pdb
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\EntityFramework.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\EntityFramework.SqlServer.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Facebook.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Auth.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Auth.PlatformServices.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Core.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Games.v1.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.PlatformServices.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Protobuf.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\MaxMind.Db.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\MaxMind.GeoIP2.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\MySql.Data.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\MySql.Data.Entity.EF6.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Newtonsoft.Json.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\NLog.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\NLog.StructuredEvents.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\SharpRaven.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\StackExchange.Redis.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\System.IO.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\System.Net.Http.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\System.Runtime.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.Algorithms.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.Encoding.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.Primitives.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.X509Certificates.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Z.EntityFramework.Extensions.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\EntityFramework.xml
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\EntityFramework.SqlServer.xml
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Facebook.xml
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.xml
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Auth.xml
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Core.xml
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Games.v1.xml
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Protobuf.xml
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\MaxMind.Db.xml
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\MaxMind.GeoIP2.xml
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Newtonsoft.Json.xml
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\NLog.xml
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\NLog.StructuredEvents.xml
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\SharpRaven.pdb
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\SharpRaven.xml
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\StackExchange.Redis.xml
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\MaterialSkin.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\obj\Debug\ClashLand.csproj.GenerateResource.Cache
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\obj\Debug\ClashLandGUI.ClashLandGUI2.resources
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\obj\Debug\ClashLand.Properties.Resources.resources
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Tools\BarbarianLand Assets Hasher.exe
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Tools\BarbarianLand Assets LZMA.exe
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Tools\database.sql
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\events.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\fingerprint.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\animations.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\billing_packages.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\boombox.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\client_globals.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\credits.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\deeplinks.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\event_entries.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\faq.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\helpshift.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\hints.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\news.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\particle_emitters.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\resource_packs.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\texts.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\texts_patch.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\building_levels.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc1.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc10.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc11.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc12.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc13.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc14.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc15.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc16.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc17.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc18.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc19.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc2.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc20.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc21.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc22.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc23.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc24.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc25.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc26.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc27.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc28.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc29.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc3.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc30.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc31.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc32.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc33.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc34.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc35.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc36.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc37.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc38.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc39.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc4.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc40.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc41.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc42.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc43.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc44.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc45.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc46.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc47.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc48.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc5.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc6.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc7.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc8.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc9.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\scrambled.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\starting_home.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel1.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel10.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel11.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel2.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel3.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel4.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel5.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel6.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel7.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel8.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel9.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest0.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest1.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest2.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest3.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest4.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest5.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall1.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall10.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall11.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall1v2.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall2.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall2v2.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall3.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall3v2.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall4.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall4v2.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall5.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall5v2.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall6.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall6v2.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall7.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall7v2.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall8.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall8v2.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall9.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\tutorial_npc.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\tutorial_npc2.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\v2_tutorial.json
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\achievements.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\alliance_badges.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\alliance_badge_layers.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\alliance_levels.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\alliance_portal.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\buildings.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\building_classes.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\calendar_event_functions.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\characters.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\decos.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\effects.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\experience_levels.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\gem_bundles.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\globals.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\heroes.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\leagues.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\leagues2.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\locales.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\missions.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\npcs.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\projectiles.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\regions.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\resources.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\shields.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\spells.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\townhall_levels.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\traps.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\variables.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\village_objects.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\war.csv
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Tools\Patch.bat
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\config.cr
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\database\Database.mmdb
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\NLog.config
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\CLS_v2018.exe.config
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\CLS_v2018.exe
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\CLS_v2018.pdb
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\EntityFramework.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\EntityFramework.SqlServer.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Facebook.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Auth.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Core.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Games.v1.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.PlatformServices.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Protobuf.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\MaterialSkin.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\MaxMind.Db.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\MaxMind.GeoIP2.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\MySql.Data.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Newtonsoft.Json.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\NLog.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\NLog.StructuredEvents.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\SharpRaven.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\StackExchange.Redis.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\System.IO.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\System.Net.Http.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\System.Runtime.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Z.EntityFramework.Extensions.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Zlib.Portable.dll
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\EntityFramework.xml
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\EntityFramework.SqlServer.xml
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Facebook.xml
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.xml
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Auth.xml
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Core.xml
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Games.v1.xml
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Google.Protobuf.xml
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\MaxMind.Db.xml
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\MaxMind.GeoIP2.xml
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Newtonsoft.Json.xml
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\NLog.xml
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\NLog.StructuredEvents.xml
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\SharpRaven.pdb
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\SharpRaven.xml
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\StackExchange.Redis.xml
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Zlib.Portable.xml
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\obj\Debug\ClashLand.csprojResolveAssemblyReference.cache
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\obj\Debug\CLS_v2018.g.resources
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\obj\Debug\ClashLandGUI.ClashLandGUI2.resources
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\obj\Debug\ClashLand.Properties.Resources.resources
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\obj\Debug\ClashLand.csproj.GenerateResource.Cache
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\obj\Debug\ClashLand.csproj.CoreCompileInputs.cache
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\obj\Debug\CLS_v2018.exe
+C:\Users\Amir\Desktop\Cerberus-master_v2018\Cerberus-master\src\MAGIC\obj\Debug\CLS_v2018.pdb
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\x64\zlibwapi.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\x86\zlibwapi.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Ionic.Zip.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Joveler.ZLibWrapper.dll
+E:\Cerberus-master_v2018\Cerberus-master\src\MAGIC\Builds\Debug\Joveler.ZLibWrapper.pdb
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Tools\BarbarianLand Assets Hasher.exe
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Tools\BarbarianLand Assets LZMA.exe
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Tools\database.sql
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\events.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\fingerprint.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\animations.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\billing_packages.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\boombox.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\client_globals.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\credits.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\deeplinks.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\event_entries.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\faq.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\helpshift.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\hints.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\news.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\particle_emitters.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\resource_packs.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\building_levels.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc1.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc10.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc11.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc12.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc13.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc14.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc15.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc16.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc17.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc18.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc19.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc2.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc20.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc21.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc22.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc23.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc24.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc25.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc26.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc27.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc28.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc29.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc3.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc30.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc31.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc32.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc33.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc34.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc35.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc36.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc37.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc38.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc39.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc4.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc40.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc41.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc42.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc43.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc44.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc45.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc46.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc47.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc48.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc5.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc6.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc7.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc8.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc9.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\scrambled.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\starting_home.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel1.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel10.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel11.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel2.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel3.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel4.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel5.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel6.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel7.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel8.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel9.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest0.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest1.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest2.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest3.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest4.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest5.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall1.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall10.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall11.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall1v2.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall2.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall2v2.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall3.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall3v2.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall4.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall4v2.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall5.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall5v2.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall6.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall6v2.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall7.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall7v2.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall8.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall8v2.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall9.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\tutorial_npc.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\tutorial_npc2.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\v2_tutorial.json
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\achievements.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\alliance_badges.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\alliance_badge_layers.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\alliance_levels.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\alliance_portal.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\buildings.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\building_classes.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\calendar_event_functions.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\characters.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\decos.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\effects.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\experience_levels.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\gem_bundles.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\globals.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\heroes.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\leagues.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\leagues2.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\locales.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\missions.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\npcs.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\projectiles.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\regions.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\resources.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\shields.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\spells.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\townhall_levels.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\traps.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\variables.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\village_objects.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\war.csv
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Tools\Patch.bat
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\config.cr
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\database\Database.mmdb
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\NLog.config
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\x64\zlibwapi.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\x86\zlibwapi.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\CLS_v2018.exe.config
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\CLS_v2018.exe
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\CLS_v2018.pdb
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\EntityFramework.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\EntityFramework.SqlServer.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Facebook.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Auth.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Auth.PlatformServices.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Core.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Games.v1.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.PlatformServices.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Protobuf.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Ionic.Zip.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Joveler.ZLibWrapper.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\MaterialSkin.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\MaxMind.Db.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\MaxMind.GeoIP2.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\MySql.Data.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\MySql.Data.Entity.EF6.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Newtonsoft.Json.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\NLog.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\NLog.StructuredEvents.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\SharpRaven.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\StackExchange.Redis.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\System.IO.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\System.Net.Http.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\System.Runtime.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.Algorithms.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.Encoding.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.Primitives.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.X509Certificates.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Z.EntityFramework.Extensions.dll
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\EntityFramework.xml
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\EntityFramework.SqlServer.xml
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Facebook.xml
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.xml
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Auth.xml
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Core.xml
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Games.v1.xml
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Google.Protobuf.xml
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Joveler.ZLibWrapper.pdb
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\MaxMind.Db.xml
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\MaxMind.GeoIP2.xml
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\Newtonsoft.Json.xml
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\NLog.xml
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\NLog.StructuredEvents.xml
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\SharpRaven.pdb
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\SharpRaven.xml
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\Builds\Debug\StackExchange.Redis.xml
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\obj\Debug\CLS_v2018.g.resources
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\obj\Debug\ClashLandGUI.ClashLandGUI2.resources
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\obj\Debug\ClashLand.Properties.Resources.resources
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\obj\Debug\ClashLand.csproj.GenerateResource.Cache
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\obj\Debug\CLS_v2018.exe
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\obj\Debug\CLS_v2018.pdb
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\obj\Debug\ClashLand.csproj.CoreCompileInputs.cache
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\obj\Debug\ClashLand.csproj.CopyComplete
+E:\Cerberus-master (1)\Cerberus-master\src\MAGIC\obj\Debug\ClashLand.csprojAssemblyReference.cache
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Tools\BarbarianLand Assets Hasher.exe
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Tools\BarbarianLand Assets LZMA.exe
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Tools\database.sql
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\events.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\fingerprint.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\animations.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\billing_packages.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\boombox.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\client_globals.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\credits.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\deeplinks.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\event_entries.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\faq.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\helpshift.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\hints.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\news.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\particle_emitters.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\csv\resource_packs.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\building_levels.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc1.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc10.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc11.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc12.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc13.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc14.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc15.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc16.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc17.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc18.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc19.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc2.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc20.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc21.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc22.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc23.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc24.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc25.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc26.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc27.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc28.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc29.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc3.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc30.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc31.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc32.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc33.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc34.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc35.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc36.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc37.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc38.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc39.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc4.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc40.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc41.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc42.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc43.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc44.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc45.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc46.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc47.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc48.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc5.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc6.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc7.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc8.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\npc9.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\scrambled.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\starting_home.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel1.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel10.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel11.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel2.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel3.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel4.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel5.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel6.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel7.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel8.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\highlevel9.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest0.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest1.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest2.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest3.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest4.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\test\playtest5.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall1.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall10.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall11.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall1v2.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall2.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall2v2.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall3.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall3v2.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall4.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall4v2.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall5.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall5v2.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall6.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall6v2.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall7.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall7v2.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall8.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall8v2.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\townhall9.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\tutorial_npc.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\tutorial_npc2.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\level\v2_tutorial.json
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\achievements.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\alliance_badges.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\alliance_badge_layers.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\alliance_levels.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\alliance_portal.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\buildings.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\building_classes.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\calendar_event_functions.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\characters.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\decos.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\effects.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\experience_levels.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\gem_bundles.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\globals.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\heroes.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\leagues.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\leagues2.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\locales.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\missions.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\npcs.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\projectiles.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\regions.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\resources.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\shields.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\spells.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\townhall_levels.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\traps.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\variables.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\village_objects.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\logic\war.csv
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Tools\Patch.bat
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\config.cr
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Gamefiles\database\Database.mmdb
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\NLog.config
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\x64\zlibwapi.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\x86\zlibwapi.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\CLS_v2018.exe.config
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\CLS_v2018.exe
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\CLS_v2018.pdb
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\EntityFramework.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\EntityFramework.SqlServer.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Facebook.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Auth.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Core.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Games.v1.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.PlatformServices.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Google.Protobuf.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Ionic.Zip.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Joveler.ZLibWrapper.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\MaterialSkin.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\MaxMind.Db.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\MaxMind.GeoIP2.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\MySql.Data.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Newtonsoft.Json.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\NLog.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\NLog.StructuredEvents.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\SharpRaven.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\StackExchange.Redis.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\System.IO.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\System.Net.Http.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\System.Runtime.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Z.EntityFramework.Extensions.dll
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\EntityFramework.xml
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\EntityFramework.SqlServer.xml
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Facebook.xml
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.xml
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Auth.xml
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Core.xml
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Google.Apis.Games.v1.xml
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Google.Protobuf.xml
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Joveler.ZLibWrapper.pdb
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\MaxMind.Db.xml
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\MaxMind.GeoIP2.xml
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\Newtonsoft.Json.xml
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\NLog.xml
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\NLog.StructuredEvents.xml
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\SharpRaven.pdb
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\SharpRaven.xml
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\StackExchange.Redis.xml
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\obj\Debug\ClashLand.csprojAssemblyReference.cache
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\obj\Debug\CLS_v2018.g.resources
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\obj\Debug\ClashLandGUI.ClashLandGUI2.resources
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\obj\Debug\ClashLand.csproj.GenerateResource.cache
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\obj\Debug\ClashLand.csproj.CoreCompileInputs.cache
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\obj\Debug\ClashLand.csproj.CopyComplete
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\obj\Debug\CLS_v2018.exe
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\obj\Debug\CLS_v2018.pdb
+C:\Users\e3xme\Desktop\ClashLand-master\Cerberus-master\src\MAGIC\Builds\Debug\CLS.bat
