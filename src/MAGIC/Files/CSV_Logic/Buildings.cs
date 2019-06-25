@@ -247,7 +247,10 @@ namespace ClashLand.Files.CSV_Logic
         public override Resource GetBuildResource(int level) => CSV.Tables.Get(Gamefile.Resources).GetData(BuildResource[level]) as Resource;
         public Resource GetAmmoResource(int level) => CSV.Tables.Get(Gamefile.Resources).GetData(GetAmmoResource[level]) as Resource;
         public Resource GetGearUpResource(int level) => CSV.Tables.Get(Gamefile.Resources).GetData(GetGearUpResource[level]) as Resource;
-        public Resource GetProducesResource() => CSV.Tables.Get(Gamefile Resources).GetData(ProducesResource) as Resource;
+        public Resource GetProducesResource() => CSV.Tables.Get(Gamefile.Resources).GetData(ProducesResource) as Resource;
+
+        public Characters GetDefenceTroopCharacter() => CSV.Tables.Get(Gamefile.Characters).GetData(DefenceTroopCharacter) as Characters;
+        public Characters GetDefenceTroopCharacter2() => CSV.Tables.Get(Gamefile.Characters).GetData(DefenceTroopCharacter2) as Characters;
 
         public List<int> GetMaxStoredResourceCounts(int level)
         {
