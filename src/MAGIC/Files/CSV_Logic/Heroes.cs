@@ -131,6 +131,14 @@ namespace ClashLand.Files.CSV_Logic
 
         public override Resource GetUpgradeResource() => CSV.Tables.Get(Gamefile.Resources).GetData(UpgradeResource) as Resource;
 
+        public override Resource GetTrainingResource() => CSV.Tables.Get(Gamefile.Resources).GetData(TrainingResource) as Resource;
+
+        public Characters GetAbilitySummonTroop() => CSV.Tablss.Get(Gamefile.Characters).GetData(AbilitySummonTroop) as Characters;
+
+        public Spells GetAuraSpell() => CSV.Tables.Get(Gamefile.Spells).GetData(AuraSpell) as Spells;
+        public Spells GetAbilitySpell() => CSV.Tables.Get(Gamefile.Spells).GetData(AbilitySpell) as Speels;
+
+
         public override int GetUpgradeTime(int level) => UpgradeTimeH[level] * 3600;
     }
 }
