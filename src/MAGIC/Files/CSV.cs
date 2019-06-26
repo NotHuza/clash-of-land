@@ -22,13 +22,14 @@ namespace ClashLand.Files
             CSV.Gamefiles.Add((int)Gamefile.Globals, @"Gamefiles/logic/globals.csv");
             CSV.Gamefiles.Add((int)Gamefile.Npcs, @"Gamefiles/logic/npcs.csv");
             CSV.Gamefiles.Add((int)Gamefile.Decos, @"Gamefiles/logic/decos.csv");
+            CSV.Gamefiles.Add((int)Gamefile.Shields, @"Gamefiles/logic/shields.csv");
             CSV.Gamefiles.Add((int)Gamefile.Missions, @"Gamefiles/logic/missions.csv");
+            CSV.Gamefiles.Add((int)Gamefile.Achievements, @"Gamefiles/logic/achievements.csv");
             CSV.Gamefiles.Add((int)Gamefile.Spells, @"Gamefiles/logic/spells.csv");
             CSV.Gamefiles.Add((int)Gamefile.Heroes, @"Gamefiles/logic/heroes.csv");
             CSV.Gamefiles.Add((int)Gamefile.Leagues, @"Gamefiles/logic/leagues.csv");
             CSV.Gamefiles.Add((int)Gamefile.Variables, @"Gamefiles/logic/variables.csv");
             CSV.Gamefiles.Add((int)Gamefile.Village_Objects, @"Gamefiles/logic/village_objects.csv");
-            CSV.Gamefiles.Add((int)Gamefile.Achievements, @"Gamefiles/logic/achievements.csv");
             CSV.Tables = new Gamefiles();
 
             //Parallel.ForEach(CSV.Gamefiles, File => //Parallel is slower in this case (When we have load csv it will help)
