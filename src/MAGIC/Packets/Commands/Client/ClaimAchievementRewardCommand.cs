@@ -21,14 +21,15 @@ namespace ClashLand.Packets.Commands.Client
             this.Unknown1 = this.Reader.ReadUInt32();
         }
 
-       /* internal override void Process()
+        internal override void Process()
         {
-            Device.Player.Avatar.Achievements.Add(new Achievement
-           {
-               Id = AchievementId,
-               Data = ((Achievements)CSV.Tables.Get(Gamefile.Achievements).GetDataWithID(Id)).ActionCount
-           });
-        }*/
+          var ca = this.Device.Player.Avatar;
+          var bd = (Achievements) CSV.Tables.Get(Gamefile.Achievmenets).GetDataWithID(AchievementId);
+
+            ca.AddDiamonds(ad.DiamondReward);
+            ca.AddExperience(ad.ExpReward);
+            ca.SetAchievment(ad, true);
+        }
 
         public int AchievementId;
         public uint Unknown1;
