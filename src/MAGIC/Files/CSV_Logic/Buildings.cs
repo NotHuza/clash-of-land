@@ -252,6 +252,10 @@ namespace ClashLand.Files.CSV_Logic
         public Characters GetDefenceTroopCharacter() => CSV.Tables.Get(Gamefile.Characters).GetData(DefenceTroopCharacter) as Characters;
         public Characters GetDefenceTroopCharacter2() => CSV.Tables.Get(Gamefile.Characters).GetData(DefenceTroopCharacter2) as Characters;
 
+        public Spells GetHitSpell() => CSV.Tables.Get(Gamefile.Spells).GetData(HitSpell) as Spells;
+
+        public Heroes GetHeroType() => CSV.Tables.Get(Gamefile.Heroes).GetData(HeroType) as Heroes;
+
         public List<int> GetMaxStoredResourceCounts(int level)
         {
             var maxStoredResourceCounts = new List<int>();
