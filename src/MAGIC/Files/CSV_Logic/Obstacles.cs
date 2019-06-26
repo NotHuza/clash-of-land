@@ -58,7 +58,8 @@ namespace ClashLand.Files.CSV_Logic
         public bool TallGrassSpawnPoint { get; set; }
         public int LootHighlightPercentage { get; set; }
         public string HighlightExportName { get; set; }
-        public Resource GetClearingResource() => CSV.Tables.Get(Gamefile.Resources).GetData(ClearResource) as Resource;
 
+        public Resource GetClearingResource() => CSV.Tables.Get(Gamefile.Resources).GetData(ClearResource) as Resource;
+        public Resource GetLootResource() => CSV.Tables.Get(Gamefile.Resources).GetData(LootResource) as Resource;
     }
 }
