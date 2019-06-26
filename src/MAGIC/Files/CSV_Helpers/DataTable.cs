@@ -62,6 +62,9 @@ namespace ClashLand.Files.CSV_Helpers
                 case 18:
                     _Data = new Decos(_Row, this);
                     break;
+                case 20:
+                    _Data = new Shields(_Row, this);
+                    break;
                 case 21:
                     _Data = new Missions(_Row, this);
                     break;
