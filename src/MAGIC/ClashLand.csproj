@@ -345,6 +345,7 @@
     <Compile Include="Files\CSV_Logic\Npcs.cs" />
     <Compile Include="Files\CSV_Logic\Obstacles.cs" />
     <Compile Include="Files\CSV_Logic\Resource.cs" />
+    <Compile Include="Files\CSV_Logic\Shields.cs" />
     <Compile Include="Files\CSV_Logic\Spells.cs" />
     <Compile Include="Files\CSV_Logic\Traps.cs" />
     <Compile Include="Files\CSV_Logic\Variables.cs" />
