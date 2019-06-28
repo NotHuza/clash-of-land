@@ -118,7 +118,7 @@ namespace ClashLand.Files.CSV_Logic
 
         public Characters GetSummonTroop() => CSV.Tables.Get(Gamefile.Characters).GetData(SummonTroop) as Characters;
 
-        public Buildings GetProductionBuilding() => CSV.Tables.Get(Gamefile.Buildings).GetData(ProductionBuilding) as Buildings;
+        //public Buildings GetProductionBuilding() => CSV.Tables.Get(Gamefile.Buildings).GetData(ProductionBuilding) as Buildings;
 
         public override int GetUpgradeTime(int level) => UpgradeTimeH[level] * 3600;
     }
