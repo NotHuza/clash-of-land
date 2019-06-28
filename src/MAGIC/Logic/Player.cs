@@ -111,7 +111,7 @@ namespace ClashLand.Logic
 
         [JsonProperty("rank")] internal Rank Rank = Rank.PLAYER;
 
-        [JsonProperty("town_hall_level")] internal int TownHall_Level;
+        [JsonProperty("town_hall_lvl")] internal int TownHall_Level;
         [JsonProperty("th_v2_lvl")] internal int Builder_TownHall_Level;
         [JsonProperty("castle_lvl")] internal int Castle_Level = -1;
         [JsonProperty("castle_total")] internal int Castle_Total;
@@ -168,6 +168,9 @@ namespace ClashLand.Logic
         [JsonProperty("inbox")] internal Inbox Inbox;
         [JsonProperty("achievements")] public AchievementsSlot Achievements;
 
+        [JsonProperty("league_type")] internal int League_Type;
+        [JsonProperty("alliance_unit_visit_capacity")] internal int Alliance_Unit_Visit_Capacity;
+        [JsonProperty("alliance_unit_spell_visit_capacity")] internal int Alliance_Unit_Spell_Visit_Capacity;
 
         internal bool Banned => this.BanTime > DateTime.UtcNow;
 
