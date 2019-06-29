@@ -2,7 +2,7 @@
   <!-- ____________________________________ Server SETTINGS ____________________________________ -->
   <add key="ClientVersion" value="10.134" />
   <!-- Client version that will be able to access the server-->
-  <add key="UpdateUrl" value="http://antzps.ddns.net" />
+  <add key="UpdateUrl" value="http://127.0.0.1" />
   <!-- Location to redirect outdated player-->
   <add key="MaintenanceTime" value="20" />
   <!-- Maintenance Time in Minutes-->
