@@ -6,9 +6,9 @@
   <!-- Location to redirect outdated player-->
   <add key="MaintenanceTime" value="20" />
   <!-- Maintenance Time in Minutes-->
-  <add key="PatchUrl" value="http://192.168.43.154:8088/Patchs/" />
+  <add key="PatchUrl" value="http:http://127.0.0.1/Patchs/" />
   <!-- Location of your patching server-->
-  <add key="EventsUrl" value="http://192.168.43.154:8088/events/" />
+  <add key="EventsUrl" value="http:http://127.0.0.1/events/" />
   <!-- Location of your events folder-->
   <add key="AdminMessage" value="haz not work" />
   <!-- The AdminMessage will be shown in the Inbox of the Players-->
