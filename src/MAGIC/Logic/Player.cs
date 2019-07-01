@@ -31,6 +31,16 @@ namespace ClashLand.Logic
             throw new NotImplementedException();
         }
 
+        internal void SetAchievment(Files.CSV_Logic.Achievements ad, bool v)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void AddDiamonds(int diamondReward)
+        {
+            throw new NotImplementedException();
+        }
+
         [JsonIgnore]
         internal DateTime LoginTime = DateTime.UtcNow;
 
