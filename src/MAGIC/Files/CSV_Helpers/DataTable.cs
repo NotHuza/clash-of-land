@@ -53,8 +53,8 @@ namespace ClashLand.Files.CSV_Helpers
                 case 12:
                     _Data = new Traps(_Row, this);
                     break;
-                case 13:
-                    _Data = new Alliance_Badges(_Row, this);
+               // case 13:
+                  //  _Data = new Alliance_Badges(_Row, this);//not work
                     break;
                 case 14:
                     _Data = new Globals(_Row, this);

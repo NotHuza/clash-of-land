@@ -60,6 +60,6 @@ namespace ClashLand.Files.CSV_Logic
         public string HighlightExportName { get; set; }
 
         public Resource GetClearingResource() => CSV.Tables.Get(Gamefile.Resources).GetData(ClearResource) as Resource;
-        public Resource GetLootResource() => CSV.Tables.Get(Gamefile.Resources).Getdata(LootResource) as Resource;
+      //  public Resource GetLootResource() => CSV.Tables.Get(Gamefile.Resources).Getdata(LootResource) as Resource;//not work
     }
 }
