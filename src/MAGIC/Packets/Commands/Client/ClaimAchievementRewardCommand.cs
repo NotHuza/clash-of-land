@@ -24,7 +24,7 @@ namespace ClashLand.Packets.Commands.Client
         internal override void Process()
         {
           var ca = this.Device.Player.Avatar;
-          var ad = (Achievements) CSV.Tables.Get(Gamefile.Achievmenets).GetDataWithID(AchievementId);
+          var ad = (Files.CSV_Logic.Achievements) CSV.Tables.Get(Gamefile.Achievmenets).GetDataWithID(AchievementId);
 
             ca.AddDiamonds(ad.DiamondReward);
             ca.AddExperience(ad.ExpReward);
