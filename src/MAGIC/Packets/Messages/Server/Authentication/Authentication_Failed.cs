@@ -25,7 +25,7 @@ namespace ClashLand.Packets.Messages.Server.Authentication
 
 
         internal Reason Reason = Reason.Default;
-        internal string PatchingHost => Fingerprint.Custom ? Constants.PatchServer : "http://antzps.ddns.net/Patchs/";
+        internal string PatchingHost => Fingerprint.Custom ? Constants.PatchServer : "http://127.0.0.1";
 
         internal string Message;
         internal string RedirectDomain;
