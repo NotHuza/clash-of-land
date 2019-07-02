@@ -14,10 +14,9 @@ namespace ClashLand.Packets.Messages.Server
     {
         internal Player Player = null;
 
-        public Avatar_Stream(Device client, Player player) : base(client)
+        public Avatar_Stream(Device client) : base(client)
         {
             this.Identifier = 24411;
-            this.Player = player;
         }
 
         internal override void Encode()
