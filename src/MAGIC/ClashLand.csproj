@@ -248,9 +248,6 @@
     <Compile Include="Core\Consoles\Colorful\TextFormatter.cs" />
     <Compile Include="Core\Consoles\Colorful\TextPattern.cs" />
     <Compile Include="Core\Consoles\Colorful\TextPatternCollection.cs" />
-    <Compile Include="Core\Consoles\HotKeyManager.cs" />
-    <Compile Include="Core\Consoles\Prefixed.cs" />
-    <Compile Include="Core\Consoles\RedisTextWriter.cs" />
     <Compile Include="Core\Database\Battle.cs">
       <DependentUpon>Mysql.tt</DependentUpon>
     </Compile>
@@ -345,7 +342,6 @@
     <Compile Include="Files\CSV_Logic\Npcs.cs" />
     <Compile Include="Files\CSV_Logic\Obstacles.cs" />
     <Compile Include="Files\CSV_Logic\Resource.cs" />
-    <Compile Include="Files\CSV_Logic\Shields.cs" />
     <Compile Include="Files\CSV_Logic\Spells.cs" />
     <Compile Include="Files\CSV_Logic\Traps.cs" />
     <Compile Include="Files\CSV_Logic\Variables.cs" />
@@ -365,14 +361,13 @@
     <Compile Include="Logic\Achievements.cs" />
     <Compile Include="Logic\AchievementsSlot.cs" />
     <Compile Include="Logic\Device.RC4.cs" />
-    <Compile Include="Logic\Enums\Booster.cs" />
-    <Compile Include="Logic\Enums\Layouts.cs" />
+    <Compile Include="Logic\Enums\AddFriendErrorReason.cs" />
     <Compile Include="Logic\Enums\Mode.cs" />
+    <Compile Include="Logic\Enums\ServiceNode.cs" />
     <Compile Include="Logic\Manager\AchievementManager.cs" />
     <Compile Include="Logic\Structure\Slots\Battle_V2.cs" />
     <Compile Include="Logic\Structure\Slots\Bookmark.cs" />
     <Compile Include="Logic\Structure\Slots\Items\Achievement.cs" />
-    <Compile Include="Logic\Structure\Slots\Items\Alliance_Games.cs" />
     <Compile Include="Logic\Structure\Slots\Items\Battle_V2.cs" />
     <Compile Include="Logic\Battle.cs" />
     <Compile Include="Logic\Clan.cs" />
@@ -469,10 +464,9 @@
     <Compile Include="Logic\Structure\Trap.cs" />
     <Compile Include="Logic\Structure\Builder_Village_Object .cs" />
     <Compile Include="Logic\Structure\Village_Object.cs" />
-    <Compile Include="Packets\Commands\Client\Load_clijent_Tick.cs" />
-    <Compile Include="Packets\Messages\Client\Cancel_frend_pvp_Normal_base.cs" />
     <Compile Include="Packets\Command.cs" />
     <Compile Include="Packets\CommandFactory.cs" />
+    <Compile Include="Packets\Commands\Client\Account_Bound.cs" />
     <Compile Include="Packets\Commands\Client\Battle\Hero_Rage.cs" />
     <Compile Include="Packets\Commands\Client\Battle\Place_Alliance_Attacker.cs" />
     <Compile Include="Packets\Commands\Client\Battle\Place_Attacker.cs" />
@@ -492,6 +486,7 @@
     <Compile Include="Packets\Commands\Client\CancelConstruction.cs" />
     <Compile Include="Packets\Commands\Client\CancelHeroUpgrade.cs" />
     <Compile Include="Packets\Commands\Client\CancelUnitProduction.cs" />
+    <Compile Include="Packets\Commands\Client\CancelUnitProductionV2.cs" />
     <Compile Include="Packets\Commands\Client\CancelUpgradeUnit.cs" />
     <Compile Include="Packets\Commands\Client\ChangeLeague.cs" />
     <Compile Include="Packets\Commands\Client\Change_Weapon_Heading.cs" />
@@ -507,8 +502,10 @@
     <Compile Include="Packets\Commands\Client\EditModeShown.cs" />
     <Compile Include="Packets\Commands\Client\EditVillageLayout.cs" />
     <Compile Include="Packets\Commands\Client\EndAttackPreparation.cs" />
+    <Compile Include="Packets\Commands\Client\EventSeen.cs" />
     <Compile Include="Packets\Commands\Client\FilterChat.cs" />
     <Compile Include="Packets\Commands\Client\Free_Worker.cs" />
+    <Compile Include="Packets\Commands\Client\Friend_List_Opened.cs" />
     <Compile Include="Packets\Commands\Client\Gear_Up.cs" />
     <Compile Include="Packets\Commands\Client\LoadTurret.cs" />
     <Compile Include="Packets\Commands\Client\Mission_Progress.cs" />
@@ -531,6 +528,7 @@
     <Compile Include="Packets\Commands\Client\SpeedUpClearing.cs" />
     <Compile Include="Packets\Commands\Client\SpeedUpHeroHealth.cs" />
     <Compile Include="Packets\Commands\Client\SpeedUpTraining.cs" />
+    <Compile Include="Packets\Commands\Client\SpeedupTrainV2.cs" />
     <Compile Include="Packets\Commands\Client\SpeedUpTroopRequest.cs" />
     <Compile Include="Packets\Commands\Client\SpeedUp_Construction.cs" />
     <Compile Include="Packets\Commands\Client\SpeedUp_Hero_Upgrade.cs" />
@@ -558,6 +556,7 @@
     <Compile Include="Packets\Cryptography\RC4\Scrambler.cs" />
     <Compile Include="Packets\Debug.cs" />
     <Compile Include="Packets\DebugFactory.cs" />
+    <Compile Include="Packets\Debugs\Clear_Obstacles.cs" />
     <Compile Include="Packets\Debugs\discordmsg.cs" />
     <Compile Include="Packets\Debugs\help.cs" />
     <Compile Include="Packets\Debugs\Clone_Player.cs" />
@@ -619,8 +618,10 @@
     <Compile Include="Packets\Messages\Client\Leaderboard\Request_League_Players.cs" />
     <Compile Include="Packets\Messages\Client\Leaderboard\Request_Local_Clans.cs" />
     <Compile Include="Packets\Messages\Client\Leaderboard\Request_Local_Players.cs" />
+    <Compile Include="Packets\Messages\Client\Leaderboard\Request_TopLeaguePlayers.cs" />
     <Compile Include="Packets\Messages\Client\News_Seen.cs" />
     <Compile Include="Packets\Messages\Client\Request_Name_Change.cs" />
+    <Compile Include="Packets\Messages\Server\API\Add_Friend_Error_Message.cs" />
     <Compile Include="Packets\Messages\Server\API\Facebook_Connect_OK.cs" />
     <Compile Include="Packets\Messages\Server\API\Friend_List_Data.cs" />
     <Compile Include="Packets\Messages\Server\Authentication\Authentication_Failed.cs" />
@@ -682,6 +683,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Mysql.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Test.cs" />
   </ItemGroup>
@@ -1167,6 +1173,10 @@
   <ItemGroup>
     <EmbeddedResource Include="ClashLandGUI.resx">
       <DependentUpon>ClashLandGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
