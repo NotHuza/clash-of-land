@@ -21,7 +21,8 @@ namespace ClashLand.Packets
                 {"clone", typeof(Clone_Player)},
                 {"help", typeof(help)},
                 {"sysmsg", typeof(sysmsg)},
-                {"discordmsg", typeof(discordmsg)}
+                //{"discordmsg", typeof(discordmsg)},
+                //{"clear", typeof(Clear_Obstacles)}
             };
         }
     }
