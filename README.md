@@ -3,11 +3,7 @@ clash of clans Emulator
 
 built version:
 
-full project link:
-Cooming soon full verzion im bussy
-Bulding on Windows on vizual studijo 2017
-Work
-For other sistema dont know
+full project link:https://github.com/jakovmarkovanovic/clash-of-land/releases/tag/2.1.0.0
 
 
 git hub verzion not full 
