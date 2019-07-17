@@ -20,9 +20,6 @@ namespace ClashLand
 
         internal static void Main()
         {
-            //Console.Title = "Clash Land - ©2018";
-            // Console.Title = $"[Clash Land] {Assembly.GetExecutingAssembly().GetName().Name} - Developer - {DateTime.Now.Year} ©";
-            //Console.Title = $"[Clash Land] {Assembly.GetExecutingAssembly().GetName().Name} - Developer - {DateTime.Now.Year} ©";
             Console.Title = $"Clash Land V{Constants.Version} - Developer - {DateTime.Now.Year} ©";
             NativeCalls.SetWindowLong(NativeCalls.GetConsoleWindow(), -20, (int)NativeCalls.GetWindowLong(NativeCalls.GetConsoleWindow(), -20) ^ 0x80000);
             NativeCalls.SetLayeredWindowAttributes(NativeCalls.GetConsoleWindow(), 0, 217, 0x2);
