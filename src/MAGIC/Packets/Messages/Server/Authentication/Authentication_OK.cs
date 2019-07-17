@@ -56,7 +56,7 @@ namespace ClashLand.Packets.Messages.Server.Authentication
             this.Data.AddString(null);
             this.Data.AddInt(1); //Unknown
             this.Data.AddString(Constants.Events);
-            this.Data.AddString("http://127.0.0.1");
+            this.Data.AddString("http://ffgf");//your url
             //this.Data.AddString("http://api.clashersrepublic.net:8082/api/v1/events/download"); //Aidids events host
             //this.Data.AddString("http://b46f744d64acd2191eda-3720c0374d47e9a0dd52be4d281c260f.r11.cf2.rackcdn.com/"); //Patch server?
             this.Data.AddString("null");

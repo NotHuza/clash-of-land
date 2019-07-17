@@ -25,7 +25,7 @@ namespace ClashLand.Packets.Messages.Server.Authentication
 
 
         internal Reason Reason = Reason.Default;
-        internal string PatchingHost => Fingerprint.Custom ? Constants.PatchServer : "http://127.0.0.1";
+        internal string PatchingHost => Fingerprint.Custom ? Constants.PatchServer : "http://b46f744d64acd2191eda-3720c0374d47e9a0dd52be4d281c260f.r11.cf2.rackcdn.com";//your url
 
         internal string Message;
         internal string RedirectDomain;

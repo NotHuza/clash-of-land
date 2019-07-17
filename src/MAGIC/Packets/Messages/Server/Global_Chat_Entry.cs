@@ -27,7 +27,7 @@ namespace ClashLand.Packets.Messages.Server
         internal override void Encode()
         {
             this.Data.AddString(this.Message);
-            this.Data.AddString(Bot ? "Server Bot" : Sender  ? "You" : Regex ? $"[{this.Message_Sender.Rank}] {this.Message_Sender.Name}" : this.Message_Sender.Name);
+            this.Data.AddString(Bot ? "Server Admin" : Sender  ? "You" : Regex ? $"[{this.Message_Sender.Rank}] {this.Message_Sender.Name}" : this.Message_Sender.Name);
 
             this.Data.AddInt(this.Message_Sender.Level); // Unknown
             this.Data.AddInt(Bot ? 22 : this.Message_Sender.League);

@@ -20,8 +20,8 @@ namespace ClashLand.Packets.Messages.Server
             this.Data.AddInt(1);
             this.Data.AddInt(89);
             this.Data.AddString("icon_league_immortal"); //Icon stuff
-            this.Data.AddString("Welcome to Clashology");
-            this.Data.AddString("Welcome to Clashology");
+            this.Data.AddString("Welcome to your server name");
+            this.Data.AddString("Welcome to your server name");
             this.Data.AddString("Learn More!");
             this.Data.AddString("https://www.google.com/");
             this.Data.AddString(null);
