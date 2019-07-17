@@ -1,4 +1,4 @@
-﻿    using System;
+﻿using System;
 using System.Linq;
 using ClashLand.Core;
 using ClashLand.Core.Networking;

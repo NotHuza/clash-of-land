@@ -1,26 +1,32 @@
-﻿/*using System.IO;
+﻿using System.IO;
+using ClashLand.Logic;
+using ClashLand.Logic.Enums;
+using ClashLand.Extensions.List;
+using ClashLand.Core;
+using ClashLand.Extensions.Binary;
 using ClashLand.Core.Networking;
 using ClashLand.Files.CSV_Helpers;
-using ClashLand.Logic;
 using ClashLand.Packets;
 using ClashLand.Packets.Messages.Server;
 
-namespace ClashLand.Packet.Messages.Client
+namespace ClashLand.Packets.Messages.Client
 {
     // Packet 14341
     internal class AskForBookmarkMessage : Message
     {
-        public AskForBookmarkMessage(PacketProcessing.Client client, PacketReader br) : base(client, br)
+        internal int bookmarks;
+        public AskForBookmarkMessage(Device Device, Reader Reader) : base(Device, Reader)
         {
         }
 
-        public void Decode()
+        internal override void Decode()
         {
+            this.bookmarks = this.Reader.ReadInt32();
         }
 
         public void Process(Level level)
         {
-            new BookmarkListMessage(Client).Send();
+            //new BookmarksListMessage(Device).Send();
         }
     }
-}*/
+}
