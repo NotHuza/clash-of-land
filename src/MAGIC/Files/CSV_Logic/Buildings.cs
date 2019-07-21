@@ -245,8 +245,8 @@ namespace ClashLand.Files.CSV_Logic
 
         public Resource GetAltBuildResource(int level) => CSV.Tables.Get(Gamefile.Resources).GetData(AltBuildResource[level]) as Resource;
         public override Resource GetBuildResource(int level) => CSV.Tables.Get(Gamefile.Resources).GetData(BuildResource[level]) as Resource;
-       // public Resource GetAmmoResource(int level) => CSV.Tables.Get(Gamefile.Resources).GetData(GetAmmoResource[level]) as Resource;//not work
-       // public Resource GetGearUpResource(int level) => CSV.Tables.Get(Gamefile.Resources).GetData(GetGearUpResource[level]) as Resource;//not work
+        public Resource GetAmmoResource() => CSV.Tables.Get(Gamefile.Resources).GetData(GetAmmoResource) as Resource;
+        public Resource GetGearUpResource() => CSV.Tables.Get(Gamefile.Resources).GetData(GetGearUpResource) as Resource;
         public Resource GetProducesResource() => CSV.Tables.Get(Gamefile.Resources).GetData(ProducesResource) as Resource;
 
         public Characters GetDefenceTroopCharacter() => CSV.Tables.Get(Gamefile.Characters).GetData(DefenceTroopCharacter) as Characters;
