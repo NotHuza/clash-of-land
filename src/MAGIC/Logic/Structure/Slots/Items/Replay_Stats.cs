@@ -35,11 +35,5 @@ namespace ClashLand.Logic.Structure.Slots.Items
         [JsonProperty("deployedHousingSpace", DefaultValueHandling = DefaultValueHandling.Include)] internal int Deployed_HousingSpace;
 
         [JsonProperty("armyDeploymentPercentage", DefaultValueHandling = DefaultValueHandling.Include)] internal int Army_Deployment_Percentage;
-
-        [JsonProperty("lootMultiplierByTownHallDiff", DefaultValueHandling = DefaultValueHandling.Include)] internal int Loot_Multiplier_By_Town_Hall_Diff;
-
-        [JsonProperty("attackerName", DefaultValueHandling = DefaultValueHandling.Include)] internal string Attacker_Name = string.Empty;
-
-        [JsonProperty("defenderName", DefaultValueHandling = DefaultValueHandling.Include)] intrnal string defenderName = string.Empty;
     }
 }

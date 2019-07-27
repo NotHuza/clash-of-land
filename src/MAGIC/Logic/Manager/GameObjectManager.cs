@@ -13,17 +13,17 @@ namespace ClashLand.Logic.Manager
     {
         public GameObjectManager(Level l)
         {
-            this.Level                = l;
-            this.GameObjects          = new List<List<GameObject>>();
+            this.Level = l;
+            this.GameObjects = new List<List<GameObject>>();
             GameObjectRemoveList = new List<GameObject>();
-            this.GameObjectsIndex     = new List<int>();
+            this.GameObjectsIndex = new List<int>();
             for (int i = 0; i < 16; i++)
             {
                 this.GameObjects.Add(new List<GameObject>());
                 this.GameObjectsIndex.Add(0);
             }
-            this.ComponentManager     = new ComponentManager(this.Level);
-		}
+            this.ComponentManager = new ComponentManager(this.Level);
+        }
 
         internal ComponentManager ComponentManager;
         internal List<GameObject> GameObjectRemoveList;
@@ -31,14 +31,14 @@ namespace ClashLand.Logic.Manager
         internal List<int> GameObjectsIndex;
         internal Level Level;
 
-		public void AddGameObject(GameObject go)
+        public void AddGameObject(GameObject go)
         {
             if (go.ClassId <= 6 || go.ClassId == 8)
             {
                 go.GlobalId = GenerateGameObjectGlobalId(go);
                 if (go.ClassId == 0)
                 {
-                    var b = (Building) go;
+                    var b = (Building)go;
                     var bd = b.GetBuildingData;
                     if (bd.IsWorkerBuilding())
                         this.Level.VillageWorkerManager.IncreaseWorkerCount();
@@ -261,11 +261,11 @@ namespace ClashLand.Logic.Manager
                 };
 
                 return jsonData;
-#endregion
+                #endregion
             }
-            set 
+            set
             {
-                var jsonBuildings = (JArray) value["buildings"];
+                var jsonBuildings = (JArray)value["buildings"];
                 foreach (JObject jsonBuilding in jsonBuildings)
                 {
                     var bd =
@@ -285,7 +285,7 @@ namespace ClashLand.Logic.Manager
                     d.Load(jsonObstacle);
                 }
 
-                var jsonTraps = (JArray) value["traps"];
+                var jsonTraps = (JArray)value["traps"];
                 foreach (JObject jsonTrap in jsonTraps)
                 {
                     var td = CSV.Tables.Get(Gamefile.Traps).GetDataWithID(jsonTrap["data"].ToObject<int>()) as Traps;
@@ -294,7 +294,7 @@ namespace ClashLand.Logic.Manager
                     t.Load(jsonTrap);
                 }
 
-                var jsonDecos = (JArray) value["decos"];
+                var jsonDecos = (JArray)value["decos"];
                 foreach (JObject jsonDeco in jsonDecos)
                 {
                     var dd = CSV.Tables.GetWithGlobalID(jsonDeco["data"].ToObject<int>()) as Decos;
@@ -369,11 +369,11 @@ namespace ClashLand.Logic.Manager
             this.GameObjects[go.ClassId].Remove(go);
             if (go.ClassId == 0)
             {
-                var b = (Building) go;
+                var b = (Building)go;
                 var bd = b.GetBuildingData;
                 if (bd.IsWorkerBuilding())
                 {
-                   this.Level.VillageWorkerManager.DecreaseWorkerCount();
+                    this.Level.VillageWorkerManager.DecreaseWorkerCount();
                 }
             }
             if (go.ClassId == 7)
@@ -426,7 +426,7 @@ namespace ClashLand.Logic.Manager
             this.GameObjects[go.ClassId].Remove(go);
             if (go.ClassId == 0)
             {
-                var b = (Building) go;
+                var b = (Building)go;
                 var bd = b.GetBuildingData;
                 if (bd.IsWorkerBuilding())
                     this.Level.VillageWorkerManager.DecreaseWorkerCount();

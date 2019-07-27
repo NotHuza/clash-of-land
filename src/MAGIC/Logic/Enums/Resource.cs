@@ -11,5 +11,6 @@
         WarDarkElixir,
         Builder_Gold,
         Builder_Elixir,
+        //Trophies,
     }
 }

@@ -154,13 +154,14 @@ namespace ClashLand.Logic.Structure.Slots
         internal void Initialize()
         {
 #if DEBUG
-            this.Set(Enums.Resource.Diamonds, 200000000);
+            this.Set(Enums.Resource.Diamonds, 600000);
 
             this.Set(Enums.Resource.Gold, 10000000);
             this.Set(Enums.Resource.Elixir, 10000000);
             this.Set(Enums.Resource.DarkElixir, 10000000);
             this.Set(Enums.Resource.Builder_Elixir, 10000000);
             this.Set(Enums.Resource.Builder_Gold, 10000000);
+            //this.Set(Enums.Resource.Trophies, 300000);
 #else
             this.Set(Enums.Resource.Diamonds, (CSV.Tables.Get(Enums.Gamefile.Globals).GetData("STARTING_DIAMONDS") as Globals).NumberValue);
             this.Set(Enums.Resource.Gold, (CSV.Tables.Get(Enums.Gamefile.Globals).GetData("STARTING_GOLD") as Globals).NumberValue);

@@ -39,7 +39,7 @@ namespace ClashLand.Logic
 
                 _Packet.AddCompressed(this.Json);
                 _Packet.AddCompressed(Game_Events.Events_Json);
-                _Packet.AddCompressed("{\"Village2\":{\"TownHallMaxLevel\":8}}");
+                _Packet.AddCompressed("{\"Village2\":{\"TownHallMaxLevel\":9}}");
                 return _Packet.ToArray();
             }
         }

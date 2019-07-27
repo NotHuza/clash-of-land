@@ -1,10 +1,9 @@
-/*using Newtonsoft.Json.Linq;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClashLand.Helpers;
 using ClashLand.Core;
 using ClashLand.Extensions.Binary;
 using ClashLand.Packets;
@@ -23,7 +22,7 @@ namespace ClashLand.Logic.DataSlots
 
         public void Decode(Reader br)
         {
-            Value = br.ReadInt32WithEndian();
+            Value = br.Read();
         }
 
         public byte[] Encode()
@@ -43,4 +42,4 @@ namespace ClashLand.Logic.DataSlots
             return jsonObject;
         }
     }
-}*/
+}

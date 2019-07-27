@@ -31,16 +31,6 @@ namespace ClashLand.Logic
             throw new NotImplementedException();
         }
 
-        internal void SetAchievment(Files.CSV_Logic.Achievements ad, bool v)
-        {
-            throw new NotImplementedException();
-        }
-
-        internal void AddDiamonds(int diamondReward)
-        {
-            throw new NotImplementedException();
-        }
-
         [JsonIgnore]
         internal DateTime LoginTime = DateTime.UtcNow;
 
@@ -93,7 +83,7 @@ namespace ClashLand.Logic
         [JsonProperty("token")] internal string Token;
         [JsonProperty("password")] internal string Password;
 
-        [JsonProperty("name")] internal string Name = "NoNameYet";
+        [JsonProperty("name")] internal string Name = "Clashology";
         [JsonProperty("IpAddress")] internal string IpAddress;
         [JsonProperty("region")] internal string Region;
         [JsonProperty("alliance_name")] internal string Alliance_Name;
@@ -121,7 +111,7 @@ namespace ClashLand.Logic
 
         [JsonProperty("rank")] internal Rank Rank = Rank.PLAYER;
 
-        [JsonProperty("town_hall_lvl")] internal int TownHall_Level;
+        [JsonProperty("town_hall_level")] internal int TownHall_Level;
         [JsonProperty("th_v2_lvl")] internal int Builder_TownHall_Level;
         [JsonProperty("castle_lvl")] internal int Castle_Level = -1;
         [JsonProperty("castle_total")] internal int Castle_Total;
@@ -177,10 +167,7 @@ namespace ClashLand.Logic
         [JsonProperty("gamecenter")] internal Structure.API.Gamecenter Gamecenter;
         [JsonProperty("inbox")] internal Inbox Inbox;
         [JsonProperty("achievements")] public AchievementsSlot Achievements;
-
-        [JsonProperty("league_type")] internal int League_Type;
-        [JsonProperty("alliance_unit_visit_capacity")] internal int Alliance_Unit_Visit_Capacity;
-        [JsonProperty("alliance_unit_spell_visit_capacity")] internal int Alliance_Unit_Spell_Visit_Capacity;
+        internal bool Connected;
 
         internal bool Banned => this.BanTime > DateTime.UtcNow;
 
