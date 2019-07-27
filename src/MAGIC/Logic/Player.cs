@@ -83,7 +83,7 @@ namespace ClashLand.Logic
         [JsonProperty("token")] internal string Token;
         [JsonProperty("password")] internal string Password;
 
-        [JsonProperty("name")] internal string Name = "Clashology";
+        [JsonProperty("name")] internal string Name = "notnameyet";
         [JsonProperty("IpAddress")] internal string IpAddress;
         [JsonProperty("region")] internal string Region;
         [JsonProperty("alliance_name")] internal string Alliance_Name;

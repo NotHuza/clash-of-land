@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace CRepublic.Magic.Logic
+namespace ClashLand.Logic
 {
     public class Achievement
     {

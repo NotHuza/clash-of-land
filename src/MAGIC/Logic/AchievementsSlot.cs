@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CRepublic.Magic.Logic
+namespace ClashLand.Logic
 {
     public class AchievementsSlot : List<Achievement>
     {
