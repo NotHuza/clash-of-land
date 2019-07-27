@@ -17,6 +17,9 @@ namespace ClashLand
     internal class Program
     {
         internal static Stopwatch Stopwatch = Stopwatch.StartNew();
+        public static Stopwatch _Stopwatch = new Stopwatch();
+
+        public static string Version { get; set; }
 
         internal static void Main()
         {
@@ -49,13 +52,31 @@ namespace ClashLand
             Console.WriteLine(@"ClashLand is NOT affiliated to 'Supercell Oy'.");
             Console.WriteLine(@"-----------------------------------------------------");
 
-            Console.ResetColor();
-            Console.WriteLine(Assembly.GetExecutingAssembly().GetName().Name + @" is now starting..." + Environment.NewLine);
+            Version = VersionChecker.GetVersionString();
+            _Stopwatch.Start();
 
-            Resources.Initialize();
-            Console.WriteLine(@"-------------------------------------" + Environment.NewLine);
+            if (Version == Constants.Version)
 
-            Thread.Sleep(Timeout.Infinite);
+            {
+                Console.WriteLine($"> Clash Land is up-to-date: {Constants.Version}");
+                Console.ResetColor();
+                Console.ForegroundColor = ConsoleColor.Green;
+                Resources.Initialize();
+            }
+            else if (Version == "Error")
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("> An Error occured when requesting the Version number.");
+                Console.WriteLine();
+                Thread.Sleep(5000);
+                Environment.Exit(0);
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"> Clash Land is not up-to-date! New Version: {Version}. Aborting...");
+                Thread.Sleep(Timeout.Infinite);
+            }
         }
 
     }
