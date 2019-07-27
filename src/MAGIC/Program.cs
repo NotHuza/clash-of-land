@@ -51,6 +51,7 @@ namespace ClashLand
             Console.WriteLine(@"ClashLand program is under the 'Proprietary' license.");
             Console.WriteLine(@"ClashLand is NOT affiliated to 'Supercell Oy'.");
             Console.WriteLine(@"-----------------------------------------------------");
+            Console.ResetColor();
 
             Version = VersionChecker.GetVersionString();
             _Stopwatch.Start();
