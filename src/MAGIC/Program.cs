@@ -53,6 +53,8 @@ namespace ClashLand
             Console.WriteLine(@"-----------------------------------------------------");
             Console.ResetColor();
 
+            Loger.Say();
+
             Version = VersionChecker.GetVersionString();
             _Stopwatch.Start();
 
@@ -62,6 +64,8 @@ namespace ClashLand
                 Console.WriteLine($"> Clash Land is up-to-date: {Constants.Version}");
                 Console.ResetColor();
                 Console.ForegroundColor = ConsoleColor.Green;
+                Loger.Say();
+                Loger.Say("Preparing Server...\n");
                 Resources.Initialize();
             }
             else if (Version == "Error")
@@ -69,6 +73,8 @@ namespace ClashLand
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("> An Error occured when requesting the Version number.");
                 Console.WriteLine();
+                Loger.Say();
+                Loger.Say("Aborting...");
                 Thread.Sleep(5000);
                 Environment.Exit(0);
             }
@@ -76,9 +82,9 @@ namespace ClashLand
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"> Clash Land is not up-to-date! New Version: {Version}. Aborting...");
-                Thread.Sleep(Timeout.Infinite);
+                Thread.Sleep(5000);
+                Environment.Exit(0);
             }
         }
-
     }
 }
