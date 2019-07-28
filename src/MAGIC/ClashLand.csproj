@@ -205,6 +205,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Loger.cs" />
+    <Compile Include="Core\Accounts.cs" />
     <Compile Include="Core\Checker\VersionChecker.cs" />
     <Compile Include="ClashLandGUI.cs">
       <SubType>Form</SubType>
@@ -567,6 +569,7 @@
     <Compile Include="Packets\Debugs\Set_Rank.cs" />
     <Compile Include="Packets\Debugs\Statistics.cs" />
     <Compile Include="Packets\Debugs\sysmsg.cs" />
+    <Compile Include="Packets\Debugs\MaxBase.cs" />
     <Compile Include="Packets\Messages\Client\AddToBookmarkMessage.cs" />
     <Compile Include="Packets\Messages\Client\Add_Global_Chat.cs" />
     <Compile Include="Packets\Messages\Client\API\Bind_Google_Account.cs" />
