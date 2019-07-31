@@ -18,7 +18,7 @@ namespace ClashLand.core.Checker
         {
             try
             {
-                string Version = new WebClient().DownloadString(new Uri("http://antzps.ddns.net/clashLand/version.json"));
+                string Version = new WebClient().DownloadString(new Uri("https://huzamodz.000webhostapp.com/verzion.json"));
                 JObject obj = JObject.Parse(Version);
                 return (string)obj["version"];
             }
