@@ -1,8 +1,10 @@
 ﻿using ClashLand.Extensions;
+using ClashLand.Extensions.Binary;
 using ClashLand.Logic;
 using ClashLand.Logic.Enums;
 using ClashLand.Packets;
 using System;
+using System.Configuration;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
@@ -53,7 +55,9 @@ namespace ClashLand.Core.Networking
 
         internal static void Listen()
         {
-            Listener.Bind(new IPEndPoint(IPAddress.Any, 9339));
+            IPHostEntry ipHostInfo = Dns.Resolve(Dns.GetHostName());
+            IPAddress ipAddress = ipHostInfo.AddressList[0];
+            Listener.Bind(new IPEndPoint(IPAddress.Parse(ipAddress.ToString()), Convert.ToInt32(ConfigurationManager.AppSettings["Port"])));
             Listener.Listen(100);
 
             Program.Stopwatch.Stop();
@@ -133,7 +137,7 @@ namespace ClashLand.Core.Networking
 
         internal static void StartReceive(SocketAsyncEventArgs e)
         {
-            var device = (Device) e.UserToken;
+            var device = (Device)e.UserToken;
             var socket = device.Socket;
 
             try
@@ -153,7 +157,7 @@ namespace ClashLand.Core.Networking
 
         internal static void ProcessReceive(SocketAsyncEventArgs e, bool startNew)
         {
-            var device = (Device) e.UserToken;
+            var device = (Device)e.UserToken;
             var transferred = e.BytesTransferred;
             if (transferred == 0 || e.SocketError != SocketError.Success)
             {
@@ -216,7 +220,7 @@ namespace ClashLand.Core.Networking
 
         internal static void StartSend(SocketAsyncEventArgs e)
         {
-            var token = (Device) e.UserToken;
+            var token = (Device)e.UserToken;
             var socket = token.Socket;
 
             try
@@ -381,7 +385,7 @@ namespace ClashLand.Core.Networking
             ArgsPool.Push(e);
         }
 
-        internal static  void Recycle(byte[] buffer)
+        internal static void Recycle(byte[] buffer)
         {
             if (buffer?.Length == Constants.Buffer)
                 BufferPool.Push(buffer);
