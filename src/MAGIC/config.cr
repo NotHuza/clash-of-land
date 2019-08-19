@@ -31,6 +31,6 @@
   <add key="MysqlDatabase" value="Clash" />
   <!-- Mysql Database -->
   <add key="Port" value="9339" />
-  <!-- server port-->
+  <!-- server port defuald 9339-->
   <!-- _______________________________________________________________________________________ -->
 </appSettings>
