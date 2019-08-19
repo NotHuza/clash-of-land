@@ -18,7 +18,7 @@
   <!-- Redis server IP address-->
   <add key="RedisPort" value="6379" />
   <!--  Redis server port-->
-  <add key="RedisPassword" value="ascent" />
+  <add key="RedisPassword" value="" />
   <!--  Redis server password-->
   <add key="MysqlIPAddress" value="127.0.0.1" />
   <!-- MySql IP Address -->
@@ -26,9 +26,11 @@
   <!-- MySql Username -->
   <add key="MysqlUsername" value="root" />
   <!-- MySql Username -->
-  <add key="MysqlPassword" value="ascent" />
+  <add key="MysqlPassword" value="" />
   <!--  MySql server password-->
   <add key="MysqlDatabase" value="Clash" />
   <!-- Mysql Database -->
+  <add key="Port" value="9339" />
+  <!-- server port-->
   <!-- _______________________________________________________________________________________ -->
 </appSettings>
