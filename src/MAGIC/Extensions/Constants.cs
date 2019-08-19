@@ -5,17 +5,17 @@ using System.Reflection;
 namespace ClashLand.Extensions
 {
     internal class Constants
-       {
+    {
         internal const int ID = 0;
-        internal const int MaxCommand  = 0;
+        internal const int MaxCommand = 0;
         internal const int Buffer = 4096;
         internal const int PRE_ALLOC_SEA = 128;
+       // internal const int Port = 9339;
         internal const bool Local = false;
         internal const bool PacketCompression = true;
         internal const bool UseSentry = false;
         internal const bool RC4 = true;
         internal const DBMS Database = DBMS.Mysql;
-        //internal const DBMS Database = DBMS.Both;
         public static string Version = Assembly.GetExecutingAssembly().GetName().Version.ToString();
 
         internal static int MaintenanceDuration = 0;
@@ -25,6 +25,7 @@ namespace ClashLand.Extensions
         internal static readonly string[] ClientVersion = Utils.ParseConfigString("ClientVersion").Split('.');
         internal static readonly string Events = Utils.ParseConfigString("EventsUrl");
         internal static readonly string AdminMessage = Utils.ParseConfigString("AdminMessage");
+        internal static readonly string Port = Utils.ParseConfigString("Port");
 
         internal static string[] AuthorizedIP =
         {
@@ -32,6 +33,6 @@ namespace ClashLand.Extensions
             "192.168.0.144",
             "115.133.41.158"
         };
-
     }
 }
+
