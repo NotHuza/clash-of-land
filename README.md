@@ -1,4 +1,4 @@
-# Clash Land Servers - [! [Status izgradnje] (https://ci.appveyor.com/api/projects/status/ru1r2ae4pva9ifqq?svg=true)] (https://ci.appveyor.com/project/jakovmarkovanovic/clash-of-land )
+# Clash Land Servers - [![Build status](https://ci.appveyor.com/api/projects/status/ru1r2ae4pva9ifqq/branch/master?svg=true)](https://ci.appveyor.com/project/jakovmarkovanovic/clash-of-land/branch/master)
 
 ## Clash Land Servers - Project
 ***Clash Land Servers*** is a _lightweight _ Supercell game server. 
