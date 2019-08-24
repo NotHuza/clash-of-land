@@ -1,8 +1,9 @@
 ﻿
-Datoteka rješenja Microsoft Visual Studio, format Verzija 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26403.0
-MinimumVisualStudioVersion = 10.0.40219.1roject("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClashLand", "src\MAGIC\ClashLand.csproj", "{9257A23D-569D-40E6-9744-A34F6374DD47}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClashLand", "src\MAGIC\ClashLand.csproj", "{9257A23D-569D-40E6-9744-A34F6374DD47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +26,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3C6C1CA4-968B-4057-B86C-B1ADC7B0B1D0}
+		SolutionGuid = {5F076E2B-5953-4E79-A63E-98029A277F95} = {9257A23D-569D-40E6-9744-A34F6374DD47}
 	EndGlobalSection
 EndGlobal
