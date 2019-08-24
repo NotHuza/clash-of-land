@@ -1,4 +1,4 @@
-# Clash Land Servers - [![Build](https://ci.appveyor.com/project/jakovmarkovanovic/clash-of-land/)
+# Clash Land Servers - [! [Status izgradnje] (https://ci.appveyor.com/api/projects/status/ru1r2ae4pva9ifqq?svg=true)] (https://ci.appveyor.com/project/jakovmarkovanovic/clash-of-land )
 
 ## Clash Land Servers - Project
 ***Clash Land Servers*** is a _lightweight _ Supercell game server. 
@@ -11,6 +11,7 @@ Clash Land.Servers uses dedicated threads and async operators.
 We are working hard to not only bring you the best servers but become one of the best communities.
 
 ## Disclaimer
-**Clash Land**'s resources and programs are protected under the license and our policies available on our website.*Clash Land**'s resources and programs are created by the (**Clash Land**) team.  
+**Clash Land**'s resources and programs are protected under the CC license and our policies available on our website.
+**Clash Land**'s resources and programs are created by the (**Clash Land**) team.  
 **Clash Land** is **NOT** affiliated with '_Supercell, Oy_'.  
 **Clash Land** does **NOT** own '_Clash of Clans_', '_Boom Beach_', '_Clash Royale_', and/or '_Hay Day_'.
