@@ -39,7 +39,7 @@ namespace ClashLand
                 \______  /____(____  /____  >___|  /|_______ (____  /___|  /\____ | 
                        \/          \/     \/     \/         \/    \/     \/      \/       
         
-                        Version 9.256 Support (+ v10.134 mod)
+                        Version 9.256 Support (+ v11.x mod)
             ", Color.Yellow, Color.Fuchsia, 14);
 
 
