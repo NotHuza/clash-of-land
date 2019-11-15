@@ -243,6 +243,10 @@ namespace ClashLand.Files.CSV_Logic
         public bool IsWorkerBuilding() => BuildingClass == "Worker";
         public bool IsWorker2Building() => BuildingClass == "Worker2";
 
+        public Building_Classes GetBuildingClass () => CSV.Tables.Get(Gamefile.Building_Classes).GetData(BuildingClass) as Building_Classes;
+        public Building_Classes GetSecondaryTargetingClass() => CSV.Tables.Get(Gamefile.Building_Classes).GetData(SecondaryTargetingClass) as Building_Classes;
+        public Building_Classes GetShopBuildingClass() => CSV.tables.Get(Gamefile.Building_Classes).GetData(ShopBuildingClass) as Building_Classes;
+ 
         public Resource GetAltBuildResource(int level) => CSV.Tables.Get(Gamefile.Resources).GetData(AltBuildResource[level]) as Resource;
         public override Resource GetBuildResource(int level) => CSV.Tables.Get(Gamefile.Resources).GetData(BuildResource[level]) as Resource;
         public Resource GetAmmoResource() => CSV.Tables.Get(Gamefile.Resources).GetData(GetAmmoResource) as Resource;
