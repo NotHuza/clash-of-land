@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
@@ -18,27 +18,30 @@ namespace ClashLand
     {
         internal static Stopwatch Stopwatch = Stopwatch.StartNew();
         public static Stopwatch _Stopwatch = new Stopwatch();
-
+        private static int Width = 120;
+        private static int Height = 30;
         public static string Version { get; set; }
 
         internal static void Main()
         {
-            Console.Title = $"Clash Land V{Constants.Version} - Developer - {DateTime.Now.Year} ©";
+              Console.Title = $"Clash Land V{Constants.Version} - Developer - {DateTime.Now.Year} ©";
             NativeCalls.SetWindowLong(NativeCalls.GetConsoleWindow(), -20, (int)NativeCalls.GetWindowLong(NativeCalls.GetConsoleWindow(), -20) ^ 0x80000);
-            NativeCalls.SetLayeredWindowAttributes(NativeCalls.GetConsoleWindow(), 0, 217, 0x2);
+            //NativeCalls.SetLayeredWindowAttributes(NativeCalls.GetConsoleWindow(), 0, 217, 0x2);
 
             Console.SetOut(new Prefixed());
-            Console.SetBufferSize(Console.WindowWidth, Console.WindowHeight);
+            //Console.SetBufferSize(Console.WindowWidth, Console.WindowHeight);
+            Console.SetWindowSize(Program.Width, Program.Height);
 
             ClashLand.Core.Consoles.Colorful.Console.WriteWithGradient(@"
-               _________ .__                .__     .____                       .___
-               \_   ___ \|  | _____    _____|  |__  |    |   _____    ____    __| _/
-               /    \  \/|  | \__  \  /  ___/  |  \ |    |   \__  \  /    \  / __ |
-               \     \___|  |__/ __ \_\___ \|   Y  \|    |___ / __ \|   |  \/ /_/ | 
-                \______  /____(____  /____  >___|  /|_______ (____  /___|  /\____ | 
-                       \/          \/     \/     \/         \/    \/     \/      \/       
+
+                         _________ .__                .__     .____                       .___
+                         \_   ___ \|  | _____    _____|  |__  |    |   _____    ____    __| _/
+                         /    \  \/|  | \__  \  /  ___/  |  \ |    |   \__  \  /    \  / __ |
+                         \     \___|  |__/ __ \_\___ \|   Y  \|    |___ / __ \|   |  \/ /_/ | 
+                          \______  /____(____  /____  >___|  /|_______ (____  /___|  /\____ | 
+                                 \/          \/     \/     \/         \/    \/     \/      \/       
         
-                        Version 9.256 Support (+ v11.x mod) //full 11.x mod confing soon
+                                      Version 9.256 Support (+ v10.134 mod)
             ", Color.Yellow, Color.Fuchsia, 14);
 
 
@@ -55,12 +58,12 @@ namespace ClashLand
             Loger.Say();
 
             Version = VersionChecker.GetVersionString();
-            _Stopwatch.Start();
+            Stopwatch.Start();
 
             if (Version == Constants.Version)
 
             {
-                Console.WriteLine($"> Clash Land is up-to-date: {Constants.Version}");
+                Console.WriteLine($"> Clash Land is Start: {Constants.Version}");
                 Console.ResetColor();
                 Console.ForegroundColor = ConsoleColor.Green;
                 Loger.Say();
@@ -74,6 +77,7 @@ namespace ClashLand
                 Console.WriteLine();
                 Loger.Say();
                 Loger.Say("Aborting...");
+                Loger.Say("Plase turn on network...");
                 Thread.Sleep(5000);
                 Environment.Exit(0);
             }
