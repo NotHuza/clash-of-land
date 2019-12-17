@@ -15,4 +15,4 @@ We are working hard to not only bring you the best servers but become one of the
 **Clash Land**'s resources and programs are created by the (**Clash Land**) team.  
 **Clash Land** is **NOT** affiliated with '_Supercell, Oy_'.  
 **Clash Land** does **NOT** own '_Clash of Clans_', '_Boom Beach_', '_Clash Royale_', and/or '_Hay Day_'.
-Full project iz here: https://github.com/jakovmarkovanovic/clash-of-land/releases/tag/2.1.0.0
+Full project and build is here: https://github.com/jakovmarkovanovic/clash-of-land/releases/tag/2.3.0.0
