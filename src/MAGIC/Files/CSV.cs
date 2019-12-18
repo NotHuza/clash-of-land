@@ -18,6 +18,7 @@ namespace ClashLand.Files
             CSV.Gamefiles.Add((int)Gamefile.Characters, @"Gamefiles/logic/characters.csv");
             CSV.Gamefiles.Add((int)Gamefile.Building_Classes, @"Gamefiles/logic/building_classes.csv");
             CSV.Gamefiles.Add((int)Gamefile.Obstacles, @"Gamefiles/logic/obstacles.csv");
+            CSV.Gamefiles.Add((int)Gamefile.Effects, @"Gamefiles/logic/effects.csv");
             CSV.Gamefiles.Add((int)Gamefile.Experience_Levels, @"Gamefiles/logic/experience_levels.csv");
             CSV.Gamefiles.Add((int)Gamefile.Traps, @"Gamefiles/logic/traps.csv");
             CSV.Gamefiles.Add((int)Gamefile.Alliance_Badges, @"Gamefiles/logic/alliance_badges.csv");
