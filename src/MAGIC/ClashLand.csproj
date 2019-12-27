@@ -133,8 +133,8 @@
     <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Ionic.Zip.1.9.1.8\lib\Ionic.Zip.dll</HintPath>
     </Reference>
-    <Reference Include="Joveler.ZLibWrapper, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Joveler.ZLibWrapper.1.2.0\lib\net45\Joveler.ZLibWrapper.dll</HintPath>
+    <Reference Include="Joveler.ZLibWrapper, Version=1.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Joveler.ZLibWrapper.1.3.1\lib\net45\Joveler.ZLibWrapper.dll</HintPath>
     </Reference>
     <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\MaterialSkin.Net4.1.0.0\lib\net40\MaterialSkin.dll</HintPath>
@@ -1211,11 +1211,11 @@ del /F /Q *.xml
 del /F /Q *.pdb
 move /Y *.dll "Library\"</PostBuildEvent>
   </PropertyGroup>
-  <Import Project="..\..\packages\Joveler.ZLibWrapper.1.2.0\build\net45\Joveler.ZLibWrapper.targets" Condition="Exists('..\..\packages\Joveler.ZLibWrapper.1.2.0\build\net45\Joveler.ZLibWrapper.targets')" />
+  <Import Project="..\..\packages\Joveler.ZLibWrapper.1.3.1\build\net45\Joveler.ZLibWrapper.targets" Condition="Exists('..\..\packages\Joveler.ZLibWrapper.1.3.1\build\net45\Joveler.ZLibWrapper.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\..\packages\Joveler.ZLibWrapper.1.2.0\build\net45\Joveler.ZLibWrapper.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Joveler.ZLibWrapper.1.2.0\build\net45\Joveler.ZLibWrapper.targets'))" />
+    <Error Condition="!Exists('..\..\packages\Joveler.ZLibWrapper.1.3.1\build\net45\Joveler.ZLibWrapper.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Joveler.ZLibWrapper.1.3.1\build\net45\Joveler.ZLibWrapper.targets'))" />
   </Target>
 </Project>

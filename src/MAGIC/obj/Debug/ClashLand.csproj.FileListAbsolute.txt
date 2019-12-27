@@ -1217,7 +1217,6 @@ C:\Users\Antz\source\repos\clash-of-land\src\MAGIC\Builds\Debug\NLog.StructuredE
 C:\Users\Antz\source\repos\clash-of-land\src\MAGIC\Builds\Debug\SharpRaven.pdb
 C:\Users\Antz\source\repos\clash-of-land\src\MAGIC\Builds\Debug\SharpRaven.xml
 C:\Users\Antz\source\repos\clash-of-land\src\MAGIC\Builds\Debug\StackExchange.Redis.xml
-C:\Users\Antz\source\repos\clash-of-land\src\MAGIC\obj\Debug\ClashLand.csprojAssemblyReference.cache
 C:\Users\Antz\source\repos\clash-of-land\src\MAGIC\obj\Debug\CLS_v2018.g.resources
 C:\Users\Antz\source\repos\clash-of-land\src\MAGIC\obj\Debug\ClashLandGUI.ClashLandGUI2.resources
 C:\Users\Antz\source\repos\clash-of-land\src\MAGIC\obj\Debug\ClashLand.Properties.Resources.resources
@@ -1227,3 +1226,4 @@ C:\Users\Antz\source\repos\clash-of-land\src\MAGIC\obj\Debug\CLS_v2018.applicati
 C:\Users\Antz\source\repos\clash-of-land\src\MAGIC\obj\Debug\ClashLand.csproj.CopyComplete
 C:\Users\Antz\source\repos\clash-of-land\src\MAGIC\obj\Debug\CLS_v2018.exe
 C:\Users\Antz\source\repos\clash-of-land\src\MAGIC\obj\Debug\CLS_v2018.pdb
+C:\Users\Antz\source\repos\clash-of-land\src\MAGIC\obj\Debug\ClashLand.csprojAssemblyReference.cache
