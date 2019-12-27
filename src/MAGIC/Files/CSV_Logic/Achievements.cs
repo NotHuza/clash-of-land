@@ -19,7 +19,7 @@ namespace ClashLand.Files.CSV_Logic
                 case "upgrade":
                 {
                   this.Type = 0;
-                  this.ActionDataData = CSV.Tables.Get(Gamefile.Building).GetData(this.ActionData);
+                  this.ActionDataData = CSV.Tables.Get(Gamefile.Buildings).GetData(this.ActionData);
                   break;
                 }
 
@@ -45,7 +45,7 @@ namespace ClashLand.Files.CSV_Logic
                 case "loot":
                 {
                   this.Type = 4;
-                  this.ActionDataData = CSV.Tables.Get(Gamefile.Resource).GetData(this.ActionData);
+                  this.ActionDataData = CSV.Tables.Get(Gamefile.Resources).GetData(this.ActionData);
                   break;
                 }
 
@@ -58,7 +58,7 @@ namespace ClashLand.Files.CSV_Logic
                 case "destroy":
                 {
                   this.Type = 6;
-                  this.ActionDataData = CSV.Tables.Get(Gamefile.Building).GetData(this.ActionData);
+                  this.ActionDataData = CSV.Tables.Get(Gamefile.Buildings).GetData(this.ActionData);
                   break;
                 }
 
@@ -125,7 +125,7 @@ namespace ClashLand.Files.CSV_Logic
                 case "repair_building":
                 {
                   this.Type = 17;
-                  this.ActionDataData = CSV.Tables.Get(Gamefile.Building).GetData(this.ActionData);
+                  this.ActionDataData = CSV.Tables.Get(Gamefile.Buildings).GetData(this.ActionData);
                   break;
                 }
 
@@ -138,7 +138,7 @@ namespace ClashLand.Files.CSV_Logic
             if (!string.IsNullOrEmpty(this.ActionData))
             {
               this.Type = 0;
-              this.ActionDataData = CSV.Tables.Get(Gamefile.Building).GetData(this.ActionData);
+              this.ActionDataData = CSV.Tables.Get(Gamefile.Buildings).GetData(this.ActionData);
             }
 
             if (this.Action == "victory_points")
@@ -154,7 +154,7 @@ namespace ClashLand.Files.CSV_Logic
             if (this.Action == "loot")
             {
               this.Type = 4;
-              this.ActionDataData = CSV.Tables.Get(Gamefile.Resource).GetData(this.ActionData);
+              this.ActionDataData = CSV.Tables.Get(Gamefile.Resources).GetData(this.ActionData);
             }
             else
             {
