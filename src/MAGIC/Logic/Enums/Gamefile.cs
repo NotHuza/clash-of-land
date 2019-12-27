@@ -35,5 +35,6 @@
         News,
         Variables = 37,
         Village_Objects = 39,
+        Achievmenets = 40,
     }
 }

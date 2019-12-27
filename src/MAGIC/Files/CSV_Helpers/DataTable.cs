@@ -47,9 +47,6 @@ namespace ClashLand.Files.CSV_Helpers
                 case 8:
                     _Data = new Obstacles(_Row, this);
                     break;
-                case 9:
-                    _Data = new Effects(_Row, this);
-                    break;
                 case 11:
                     _Data = new Experience_Levels(_Row, this);
                     break;
@@ -110,6 +107,9 @@ namespace ClashLand.Files.CSV_Helpers
                     break;
                 case 8:
                     _Data = new Obstacles(_Row, this);
+                    break;
+                case 9:
+                    _Data = new Effects(_Row, this);
                     break;
                 // case 10: Particle Emitters
                 case 11:

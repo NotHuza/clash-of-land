@@ -37,10 +37,10 @@ namespace ClashLand.Logic.Components
                     this.AimRotateStep = true;
 
                 if (bd.VillageType != null)
-                    this.ActiveVillage2Layout >= 0;
+                    _ = this.ActiveVillage2Layout >= 0;
 
                 else
-                    this.ActiveLayout >= 0;
+                    _ = this.ActiveLayout >= 0;
 
             }
         }
