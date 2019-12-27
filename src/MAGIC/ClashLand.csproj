@@ -13,7 +13,9 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>publish\</PublishUrl>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>D:\CODE\publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -23,12 +25,11 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationRevision>1</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -83,7 +84,20 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ClashLand.Program</StartupObject>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A21E242826CDEEA3D8B6339738CAABC548D34452</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ClashLand_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -206,7 +220,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\Loger.cs" />
-    <Compile Include="Core\Accounts.cs" />
     <Compile Include="Core\Checker\VersionChecker.cs" />
     <Compile Include="ClashLandGUI.cs">
       <SubType>Form</SubType>
@@ -344,6 +357,7 @@
     <Compile Include="Files\CSV_Logic\Npcs.cs" />
     <Compile Include="Files\CSV_Logic\Obstacles.cs" />
     <Compile Include="Files\CSV_Logic\Resource.cs" />
+    <Compile Include="Files\CSV_Logic\Shields.cs" />
     <Compile Include="Files\CSV_Logic\Spells.cs" />
     <Compile Include="Files\CSV_Logic\Traps.cs" />
     <Compile Include="Files\CSV_Logic\Variables.cs" />
@@ -558,7 +572,6 @@
     <Compile Include="Packets\Cryptography\RC4\Scrambler.cs" />
     <Compile Include="Packets\Debug.cs" />
     <Compile Include="Packets\DebugFactory.cs" />
-    <Compile Include="Packets\Debugs\Clear_Obstacles.cs" />
     <Compile Include="Packets\Debugs\discordmsg.cs" />
     <Compile Include="Packets\Debugs\help.cs" />
     <Compile Include="Packets\Debugs\Clone_Player.cs" />
@@ -569,7 +582,6 @@
     <Compile Include="Packets\Debugs\Set_Rank.cs" />
     <Compile Include="Packets\Debugs\Statistics.cs" />
     <Compile Include="Packets\Debugs\sysmsg.cs" />
-    <Compile Include="Packets\Debugs\MaxBase.cs" />
     <Compile Include="Packets\Messages\Client\AddToBookmarkMessage.cs" />
     <Compile Include="Packets\Messages\Client\Add_Global_Chat.cs" />
     <Compile Include="Packets\Messages\Client\API\Bind_Google_Account.cs" />
@@ -699,6 +711,7 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Mysql.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <None Include="ClashLand_TemporaryKey.pfx" />
     <None Include="CLS.bat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
