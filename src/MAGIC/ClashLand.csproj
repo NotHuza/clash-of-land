@@ -220,7 +220,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\Loger.cs" />
-    <Compile Include="Core\Checker\VersionChecker.cs" />
     <Compile Include="ClashLandGUI.cs">
       <SubType>Form</SubType>
     </Compile>
