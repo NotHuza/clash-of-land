@@ -14,14 +14,14 @@ namespace ClashLand.Packets
         {
             Debugs = new Dictionary<string, Type>
             {
-                {"refill", typeof(Resource_Update)},
+                {"resource", typeof(Resource_Update)},
                 {"stats", typeof(Statistics)},
                 {"max_village", typeof(Max_Village)},
                 {"rank", typeof(Set_Rank)},
                 {"clone", typeof(Clone_Player)},
                 {"help", typeof(help)},
                 {"sysmsg", typeof(sysmsg)},
-                //{"discordmsg", typeof(discordmsg)},
+                {"discordmsg", typeof(discordmsg)},
                 //{"clear", typeof(Clear_Obstacles)}
             };
         }

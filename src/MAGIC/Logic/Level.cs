@@ -55,7 +55,5 @@ namespace ClashLand.Logic
 
         internal bool HasFreeVillageWorkers => this.VillageWorkerManager.GetFreeWorkers() > 0;
         internal bool HasFreeBuilderVillageWorkers => this.BuilderVillageWorkerManager.GetFreeWorkers() > 0;
-
-        public object Client { get; internal set; }
     }
 }

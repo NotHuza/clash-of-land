@@ -13,9 +13,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
-    <PublishUrl>D:\CODE\publish\</PublishUrl>
+    <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -25,11 +23,12 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
-    <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -84,20 +83,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>
-    </StartupObject>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ManifestCertificateThumbprint>A21E242826CDEEA3D8B6339738CAABC548D34452</ManifestCertificateThumbprint>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ManifestKeyFile>ClashLand_TemporaryKey.pfx</ManifestKeyFile>
-  </PropertyGroup>
-  <PropertyGroup>
-    <GenerateManifests>true</GenerateManifests>
-  </PropertyGroup>
-  <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <StartupObject>ClashLand.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -133,8 +119,8 @@
     <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Ionic.Zip.1.9.1.8\lib\Ionic.Zip.dll</HintPath>
     </Reference>
-    <Reference Include="Joveler.ZLibWrapper, Version=1.3.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Joveler.ZLibWrapper.1.3.1\lib\net45\Joveler.ZLibWrapper.dll</HintPath>
+    <Reference Include="Joveler.ZLibWrapper, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Joveler.ZLibWrapper.1.2.0\lib\net45\Joveler.ZLibWrapper.dll</HintPath>
     </Reference>
     <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\MaterialSkin.Net4.1.0.0\lib\net40\MaterialSkin.dll</HintPath>
@@ -219,7 +205,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Core\Loger.cs" />
     <Compile Include="ClashLandGUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -492,7 +477,7 @@
     <Compile Include="Packets\Commands\Client\Battle\Surrender_Attack.cs" />
     <Compile Include="Packets\Commands\Client\Boost_Building.cs" />
     <Compile Include="Packets\Commands\Client\BuildingToMove.cs" />
-    <Compile Include="Packets\Commands\Client\BuyShield.cs" />
+    <Compile Include="Packets\Commands\Client\Buy_Shield.cs" />
     <Compile Include="Packets\Commands\Client\Buy_Building.cs" />
     <Compile Include="Packets\Commands\Client\Buy_Deco.cs" />
     <Compile Include="Packets\Commands\Client\Buy_Multiple_Wall.cs" />
@@ -571,6 +556,7 @@
     <Compile Include="Packets\Cryptography\RC4\Scrambler.cs" />
     <Compile Include="Packets\Debug.cs" />
     <Compile Include="Packets\DebugFactory.cs" />
+    <Compile Include="Packets\Debugs\Clear_Obstacles.cs" />
     <Compile Include="Packets\Debugs\discordmsg.cs" />
     <Compile Include="Packets\Debugs\help.cs" />
     <Compile Include="Packets\Debugs\Clone_Player.cs" />
@@ -710,10 +696,6 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Mysql.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="ClashLand_TemporaryKey.pfx" />
-    <None Include="CLS.bat">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="Core\Database\Mysql.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Mysql.edmx</DependentUpon>
@@ -1210,11 +1192,11 @@ del /F /Q *.xml
 del /F /Q *.pdb
 move /Y *.dll "Library\"</PostBuildEvent>
   </PropertyGroup>
-  <Import Project="..\..\packages\Joveler.ZLibWrapper.1.3.1\build\net45\Joveler.ZLibWrapper.targets" Condition="Exists('..\..\packages\Joveler.ZLibWrapper.1.3.1\build\net45\Joveler.ZLibWrapper.targets')" />
+  <Import Project="..\..\packages\Joveler.ZLibWrapper.1.2.0\build\net45\Joveler.ZLibWrapper.targets" Condition="Exists('..\..\packages\Joveler.ZLibWrapper.1.2.0\build\net45\Joveler.ZLibWrapper.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\..\packages\Joveler.ZLibWrapper.1.3.1\build\net45\Joveler.ZLibWrapper.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Joveler.ZLibWrapper.1.3.1\build\net45\Joveler.ZLibWrapper.targets'))" />
+    <Error Condition="!Exists('..\..\packages\Joveler.ZLibWrapper.1.2.0\build\net45\Joveler.ZLibWrapper.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Joveler.ZLibWrapper.1.2.0\build\net45\Joveler.ZLibWrapper.targets'))" />
   </Target>
 </Project>

@@ -1,17 +1,22 @@
-# ClashLand Server - [![Build Status](https://dev.azure.com/Antzsmt/ClashLand/_apis/build/status/ClashLand?branchName=master)](https://dev.azure.com/Antzsmt/ClashLand/_build/latest?definitionId=2&branchName=master) [![Build status](https://ci.appveyor.com/api/projects/status/ajq4bhtx2v5qu4x7?svg=true)](https://ci.appveyor.com/project/antzsmt/clash-of-land)
+## Clashers Republic - Project
 
-## ClashLand Server - Project
-***ClashLand Server*** is a _lightweight _ Supercell game server. 
-The goal of this emulator is to ensure a clean, easy-to-understand code environment.
-ClashLand Server uses dedicated threads and async operators. 
-**MySQL server** & a **memory based** saving server will be used to save players.
+***Cerberus*** is a _3 Dimension Project_.
+It has been **written by Vicky** from **Clashers Repbulic**.  
+The goal of this project is to ensure a clean, easy-to-die code environment.
+All programs are developed by the Clashers Republic Development Team are licensed by a license.
 
-## About us
-**ClashLand** has been around since 2015, offering the latest discussion on games from Supercell.  
-We are working hard to not only bring you the best servers but become one of the best communities.
+## Project Codenames:
+* BOOM - Boom Beach Server
+* EUROPA - Hash Generator
+* MAGIC - Clash of Clans Server
+* LYRA - Supercell Proxy
+* NEBULA - SC Editor
+* NIBIRU - LZMA Manager
+* ROYALE - Clash Royale Server
+* XENA - Library Patcher
 
 ## Disclaimer
-**ClashLand**'s resources and programs are protected under the CC license and our policies available on our website.
-**ClashLand**'s resources and programs are created by the (**ClashLand**) team.  
-**ClashLand** is **NOT** affiliated with '_Supercell, Oy_'.  
-**ClashLand** does **NOT** own '_Clash of Clans_', '_Boom Beach_', '_Clash Royale_', and/or '_Hay Day_'.
+**Clashers Republic**'s resources and programs are protected under the license and our policies available on our website.
+**Clashers Republic**'s resources and programs are created by the (**Clashers Republic**) team.  
+**Clashers Republic** is **NOT** affiliated with '_Supercell, Oy_'.  
+**Clashers Republic** does **NOT** own '_Clash of Clans_', '_Boom Beach_', '_Clash Royale_', '_Brawl Stars_', and/or '_Hay Day_'.

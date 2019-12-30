@@ -23,7 +23,7 @@ namespace ClashLand.Packets.Debugs
         {
             this.Help = new StringBuilder();
 			this.Help.AppendLine("Welcome to Clashology Private Servers");
-            this.Help.AppendLine("/refill: upgrading the amount of resources");
+            this.Help.AppendLine("/resource: upgrading the amount of resources");
             this.Help.AppendLine("/stats: get your account info");
             this.Help.AppendLine("/max_village: upgrade villages to max level");
             this.Help.AppendLine("/rank: {user_id} {rank} (Admins Only)");

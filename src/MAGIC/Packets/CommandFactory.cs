@@ -48,7 +48,7 @@ namespace ClashLand.Packets
                 {519, typeof(Mission_Progress)},
                 {520, typeof(Unlock_Building)},
                 {521, typeof(Free_Worker)},
-                {522, typeof(BuyShield)},
+                {522, typeof(Buy_Shield)},
                 {523, typeof(ClaimAchievementRewardCommand)},
                 {524, typeof(Change_Weapon_Mode)},
                 {525, typeof(LoadTurret)},

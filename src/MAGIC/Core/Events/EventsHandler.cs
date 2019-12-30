@@ -3,6 +3,7 @@ using ClashLand.Logic.Enums;
 using System;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
+using System.Drawing;
 
 namespace ClashLand.Core.Events
 {
@@ -32,7 +33,7 @@ namespace ClashLand.Core.Events
         }
         internal void Handler(Exits Type = Exits.CTRL_CLOSE_EVENT)
         {
-            Console.WriteLine("The program is shutting down.");
+            Console.WriteLine("The program is shutting down.", Color.IndianRed);
             this.ExitHandler();
         }
     }

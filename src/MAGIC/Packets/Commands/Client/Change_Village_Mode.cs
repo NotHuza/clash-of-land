@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using ClashLand.Core;
 using ClashLand.Extensions.Binary;
 using ClashLand.Logic;
@@ -10,6 +14,7 @@ namespace ClashLand.Packets.Commands.Client
     {
         internal int Tick;
         public Change_Village_Mode(Reader reader, Device client, int id) : base(reader, client, id)
+        //public Change_Village_Mode(Reader Reader, Device Player, int id) : base(Reader, Player, id)
         {
             
         }

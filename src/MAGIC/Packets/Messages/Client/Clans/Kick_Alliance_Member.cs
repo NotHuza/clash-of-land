@@ -1,5 +1,6 @@
 ﻿using ClashLand.Logic;
 using ClashLand.Extensions.Binary;
+using System.IO;
 
 namespace ClashLand.Packets.Messages.Client
 {
@@ -16,8 +17,10 @@ namespace ClashLand.Packets.Messages.Client
 
         internal override void Decode()
         {
-            this.HighID = this.Reader.ReadInt32();
-            this.LowID  = this.Reader.ReadInt32();
+            this.HighID = ((BinaryReader)this.Reader).ReadInt32();
+            this.LowID = ((BinaryReader)this.Reader).ReadInt32();
+            //this.HighID = this.Reader.ReadInt32();
+            //this.LowID  = this.Reader.ReadInt32();
         }
         
         internal override void Process()

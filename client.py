@@ -39,4 +39,4 @@ def main():
         client.start(('127.0.0.1', 9339))
         time.sleep(.1)
 if __name__ == "__main__":
-    main()# clash-of-land
+    main()

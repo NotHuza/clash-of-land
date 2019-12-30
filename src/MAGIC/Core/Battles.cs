@@ -148,7 +148,7 @@ namespace ClashLand.Core
                         Database.SaveChanges();
                     }
                 }
-                await Database.BulkSaveChangesAsync();
+                //await Database.BulkSaveChangesAsync();
             }
             /*
             while (true)

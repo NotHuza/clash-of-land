@@ -9,7 +9,7 @@ using ClashLand.Extensions.List;
 using ClashLand.Logic;
 
 namespace ClashLand.Packets.Messages.Server
-{
+/*{
     internal class Avatar_Stream : Message
     {
         internal Player Player = null;
@@ -25,13 +25,17 @@ namespace ClashLand.Packets.Messages.Server
             this.Player = player;
         }*/
 
-        internal override void Encode()
+        /*internal override void Encode()
         {
+            Player pl = this.Device.Player.Avatar;
+            this.Data.AddInt(pl.UserHighId);
+            this.Data.AddInt(pl.UserLowId);
             this.Data.AddRange(Player != null ? this.Player.Inbox.ToBytes : this.Device.Player.Avatar.Inbox.ToBytes);
         }
     }
-}
-/*internal class Avatar_Stream : Message
+}*/
+{
+internal class Avatar_Stream : Message
 {
     internal Player Player = null;
 
@@ -40,11 +44,11 @@ namespace ClashLand.Packets.Messages.Server
         this.Identifier = 24411;
     }
 
-    public Avatar_Stream(Device client, Player player) : base(client)
+    /*public Avatar_Stream(Device Device) : base(Device)
     {
         this.Identifier = 24411;
-        this.Player = player;
-    }
+        //this.Player = player;
+    }*/
 
     internal override void Encode()
     {
@@ -115,6 +119,8 @@ namespace ClashLand.Packets.Messages.Server
         this.Data.Add(1);
         this.Data.AddLong(1);
         this.Data.AddInt(int.MaxValue);
+        //this.Data.AddRange(Player != null ? this.Player.Inbox.ToBytes : this.Device.Player.Avatar.Inbox.ToBytes);
+        }
     }
 }
-}*/
+

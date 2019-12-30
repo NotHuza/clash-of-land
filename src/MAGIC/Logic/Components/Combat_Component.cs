@@ -1,4 +1,4 @@
-using ClashLand.Files;
+﻿using ClashLand.Files;
 using ClashLand.Files.CSV_Logic;
 using ClashLand.Logic.Enums;
 using ClashLand.Logic.Structure;
@@ -16,7 +16,7 @@ namespace ClashLand.Logic.Components
 
             if (ci.ClassId == 4 || ci.ClassId == 11)
             {
-                var td = (Traps) ci.Data;
+                var td = (Traps)ci.Data;
                 if (td.HasAltMode)
                     this.AltTrapAttackMode = true;
 
@@ -25,7 +25,7 @@ namespace ClashLand.Logic.Components
             }
             else if (ci.ClassId == 0 || ci.ClassId == 7)
             {
-                var bd = (Buildings) ci.Data;
+                var bd = (Buildings)ci.Data;
 
                 if (bd.AmmoCount > 0)
                     this.Ammo = bd.AmmoCount;
@@ -91,12 +91,12 @@ namespace ClashLand.Logic.Components
 
             if (jsonObject["gear"] != null)
                 this.GearUp = jsonObject["gear"].ToObject<int>();
-            
-            if(jsonObject["active_layout"] != null)
-               this.ActiveLayout = jsonObject["active_layout"].ToObject<int>();
 
-            if(jsonObject["act_l2"] != null)
-               this.ActiveVillage2Layout = jsonObject["act_l2"].ToObject<int>();
+            if (jsonObject["active_layout"] != null)
+                this.ActiveLayout = jsonObject["active_layout"].ToObject<int>();
+
+            if (jsonObject["act_l2"] != null)
+                this.ActiveVillage2Layout = jsonObject["act_l2"].ToObject<int>();
 
             if (jsonObject["ammo"] != null)
                 this.Ammo = jsonObject["ammo"].ToObject<int>();
@@ -184,32 +184,32 @@ namespace ClashLand.Logic.Components
 
             if (this.AltDirectionMode)
             {
-               if(this.ActiveLayout == 0);
-               {
-                 jsonObject.Add("trapd", this.TrapDirection);
-                 jsonObject.Add("trapd_draft", this.TrapDirectionDraft);
+                if (this.ActiveLayout == 0) ;
+                {
+                    jsonObject.Add("trapd", this.TrapDirection);
+                    jsonObject.Add("trapd_draft", this.TrapDirectionDraft);
                 }
 
-                if(this.ActiveLayout == 1)
+                if (this.ActiveLayout == 1)
                 {
-                  jsonObject.Add("trapd2", this.TrapDirectionLayout2);
-                  jsonObject.Add("trapd_d2", this.TrapDirectionLayout2Draft);
+                    jsonObject.Add("trapd2", this.TrapDirectionLayout2);
+                    jsonObject.Add("trapd_d2", this.TrapDirectionLayout2Draft);
                 }
-                
-                if(this.ActiveLayout == 2)
+
+                if (this.ActiveLayout == 2)
                 {
-                  jsonObject.Add("trapd3", this.TrapDirectionLayout3);
-                  jsonObject.Add("trapd_d3", this.TrapDirectionLayout3Draft);
+                    jsonObject.Add("trapd3", this.TrapDirectionLayout3);
+                    jsonObject.Add("trapd_d3", this.TrapDirectionLayout3Draft);
                 }
-                
-                if(this.ActiveLayout == 3)
+
+                if (this.ActiveLayout == 3)
                 {
-                  jsonObject.Add("trapd4", this.TrapDirectionLayout4);
-                  jsonObject.Add("trapd_d4", this.TrapDirectionLayout4Draft);
+                    jsonObject.Add("trapd4", this.TrapDirectionLayout4);
+                    jsonObject.Add("trapd_d4", this.TrapDirectionLayout4Draft);
                 }
-                  
+
             }
-            
+
             return jsonObject;
         }
     }

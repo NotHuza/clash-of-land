@@ -209,6 +209,8 @@ namespace ClashLand.Core
                 Loggers.Log("#" + DateTime.Now.ToString("d") + " ---- Pools ---- " + DateTime.Now.ToString("T") + " #", true);
                 Loggers.Log($"SocketAsyncEventArgs: created -> {Gateway.NumberOfArgsCreated} in-use -> {Gateway.NumberOfArgsInUse} available -> {Gateway.NumberOfArgs}.", true);
                 Loggers.Log($"Buffers: created -> {Gateway.NumberOfBuffersCreated} in-use -> {Gateway.NumberOfBuffersInUse} available -> {Gateway.NumberOfBuffers}.", true);
+                Console.ResetColor();
+                Console.ForegroundColor = ConsoleColor.White;
             };
 
             this.LTimers.Add(2, Timer);

@@ -230,8 +230,9 @@ namespace ClashLand.Packets.Messages.Client.Authentication
             new Own_Home_Data(this.Device).Send();
 
             // new Own_Home_Data(this.Device).Send();
-
             new Server.Avatar_Stream(this.Device).Send();
+            //Server.Avatar_Stream avatar_Stream = new Server.Avatar_Stream(Device);
+            //avatar_Stream.Send();
             //new Game_News(this.Device).Send();
             if (this.Device.Player.Avatar.ClanId > 0)
             {
@@ -254,6 +255,7 @@ namespace ClashLand.Packets.Messages.Client.Authentication
                     this.Device.Player.Avatar.ClanId = 0;
                 }
             }
+            //new Server.Avatar_Stream(this.Device).Send();
         }
     }
 }

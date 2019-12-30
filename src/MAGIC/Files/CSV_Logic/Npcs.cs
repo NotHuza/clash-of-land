@@ -1,7 +1,5 @@
-﻿using System;
-using ClashLand.Files.CSV_Helpers;
+﻿using ClashLand.Files.CSV_Helpers;
 using ClashLand.Files.CSV_Reader;
-using ClashLand.Logic.Enums;
 
 namespace ClashLand.Files.CSV_Logic
 {
@@ -11,7 +9,6 @@ namespace ClashLand.Files.CSV_Logic
         {
             Load(Row);
         }
-
         public string Name { get; set; }
         public string MapInstanceName { get; set; }
         public string[] MapDependencies { get; set; }
@@ -25,9 +22,6 @@ namespace ClashLand.Files.CSV_Logic
         public bool AlwaysUnlocked { get; set; }
         public string PlayerName { get; set; }
         public string AllianceName { get; set; }
-        public int AllianceBadge { get; set; }
-        public bool SinglePlayer { get; set; }
 
-        public Characters GetUnitType() => CSV.Tables.Get(Gamefile.Characters).GetData(UnitType) as Characters;
     }
 }

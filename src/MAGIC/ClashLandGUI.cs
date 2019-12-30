@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Configuration;
 using System.Data;
+using System.Resources;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
@@ -42,11 +43,9 @@ namespace ClashLandGUI
 
         internal Device Device { get; private set; }
 
-        private void UCSUI_Load(object sender, EventArgs e)
+        private void ClashLandGUI2_Load(object sender, EventArgs e)
         {
-#pragma warning disable CS0618 // Type or member is obsolete
             IPHostEntry ipHostInfo = Dns.Resolve(Dns.GetHostName());
-#pragma warning restore CS0618 // Type or member is obsolete
             labelIP.Text = Convert.ToString(ipHostInfo.AddressList[0]);
             labelOnlinePlayers.Text = Convert.ToString(Gateway.NumberOfBuffersInUse.ToString());
             labelConnectedPlayers.Text = Utils.Padding(Players.Levels.Count.ToString(), 15);
@@ -68,7 +67,7 @@ namespace ClashLandGUI
             txtPatchURL.Text = ConfigurationManager.AppSettings["PatchUrl"];
             txtDatabaseType.Text = ConfigurationManager.AppSettings["MysqlDatabase"];
             //txtPort.Text = ConfigurationManager.AppSettings["ServerPort"];
-            txtAdminMessage.Text = ConfigurationManager.AppSettings["AdminMessage"];
+            //txtAdminMessage.Text = ConfigurationManager.AppSettings["AdminMessage"];
             //txtLogLevel.Text = ConfigurationManager.AppSettings["LogLevel"];
             txtClientVersion.Text = ConfigurationManager.AppSettings["ClientVersion"];
 
@@ -124,7 +123,7 @@ namespace ClashLandGUI
                 System.Diagnostics.Process.Start("CLS.bat");
         }
 
-            //Shutdown UCS Button
+            //Shutdown ClashLand Button
             private void materialRaisedButton12_Click(Object sender, EventArgs e)
             {
                 foreach (System.Diagnostics.Process myProc in System.Diagnostics.Process.GetProcesses())
@@ -150,11 +149,11 @@ namespace ClashLandGUI
         //Reset Button
         private void materialRaisedButton5_Click(object sender, EventArgs e)
         {
-            txtUpdateURL.Text = "https://Bodogame.com";
+            txtUpdateURL.Text = "http://clashology.ddns.net";
             txtPatchURL.Text = "";
             txtDatabaseType.Text = "mysql";
-            txtAdminMessage.Text = "Welcome to ClashLand Beta! Visit https://Bodogame.com for more info.";
-            txtClientVersion.Text = "9.105";
+            txtAdminMessage.Text = "Welcome to ClashLand! Visit http://clashology.ddns.net for more info.";
+            txtClientVersion.Text = "9.256/10.134 Mods";
         }
 
         //Save Changes Button
@@ -242,18 +241,16 @@ namespace ClashLandGUI
         //Send To Gobal Chat Button
         private void materialRaisedButton9_Click(object sender, EventArgs e)
         {
-            //foreach (var onlinePlayer in ResourcesManager.m_vOnlinePlayers)
+            foreach (var _Device in Resources.GChat.Get_Chat(this.Device).Values.ToList())
             {
-                //var pm = new Global_Chat_Entry(onlinePlayer.Device)
+                new Global_Chat_Entry(_Device)
                 {
-                    //Message = textBox21.Text,
-                    //HomeId = 0,
-                    //CurrentHomeId = 0,
-                    //LeagueId = 22,
-                    //PlayerName = textBox22.Text
-                };
-
-                //pm.Send();
+                    Message = textBox21.Text,
+                    Message_Sender = this.Device.Player.Avatar,
+                    Bot = true,
+                    //Regex = true,
+                    Sender = this.Device == _Device
+                }.Send();
             }
         }
 
@@ -294,7 +291,7 @@ namespace ClashLandGUI
 
         private void materialRaisedButton18_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("The Time where the Message will be automatically sendet. (In Seconds)", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("The Time delay where the Message will be automatically sent. (In Seconds)", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void materialRaisedButton19_Click(object sender, EventArgs e)

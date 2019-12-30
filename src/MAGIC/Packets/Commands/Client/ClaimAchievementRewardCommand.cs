@@ -25,18 +25,10 @@ namespace ClashLand.Packets.Commands.Client
         {
             Device.Player.Avatar.Achievements.Add(new Logic.Achievement
             {
-                Id = AchievementId,
-                Data = ((Files.CSV_Logic.Achievements)CSV.Tables.Get(Gamefile.Achievements).GetDataWithID(Id)).ActionCount
-            });
+               Id = AchievementId,
+               Data = ((Files.CSV_Logic.Achievements)CSV.Tables.Get(Gamefile.Achievements).GetDataWithID(Id)).ActionCount
+           });
         }
-        /*{
-          var ca = this.Device.Player.Avatar;
-          var ad = (Files.CSV_Logic.Achievements) CSV.Tables.Get(Gamefile.Achievmenets).GetDataWithID(AchievementId);
-
-            ca.AddDiamonds(ad.DiamondReward);
-            ca.AddExperience(ad.ExpReward);
-            ca.SetAchievment(ad, true);
-        }*/
 
         public int AchievementId;
         public uint Unknown1;

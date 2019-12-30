@@ -23,7 +23,7 @@ namespace ClashLand.Packets.Messages.Client
         int m_vMaximumAllianceMembers;
         int m_vMinimumAllianceLevel;
         int m_vMinimumAllianceMembers;
-        string m_vSearchString;
+        //string m_vSearchString;
         byte m_vShowOnlyJoinableAlliances;
         int m_vWarFrequency;
 
@@ -41,7 +41,7 @@ namespace ClashLand.Packets.Messages.Client
 
         internal override void Process()
         {
-            if (m_vSearchString.Length < 15)
+            /*if (m_vSearchString.Length < 15)
             {
                 //Resources.DisconnectClient(Device);
             }
@@ -60,8 +60,8 @@ namespace ClashLand.Packets.Messages.Client
                 //AllianceListMessage p = new AllianceListMessage(Device);
                 //p.m_vAlliances = joinableAlliances;
                 //p.m_vSearchString = m_vSearchString;
-                //p.Send();
+                //p.Send();*/
             }
         }
     }
-}
+//}

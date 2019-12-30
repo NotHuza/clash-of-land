@@ -31,20 +31,33 @@ namespace ClashLand.Packets.Debugs
                         case 7:
                         case 8:
                             var resource = (Resource) this.ResourceID;
-                            SendChatMessage($"Your resource amount for {resource} have been updated to 999999999");
-                            this.Device.Player.Avatar.Resources.Set(resource, 999999999);
+                            SendChatMessage($"Your resource amount for {resource} have been updated to 200000000");
+                            this.Device.Player.Avatar.Resources.Set(resource, 200000000);
                             new Own_Home_Data(this.Device).Send();
                             break;
 
                         case 9:
-                            this.Device.Player.Avatar.Resources.Set(Resource.Diamonds, 999999999);
-                            this.Device.Player.Avatar.Resources.Set(Resource.Gold, 999999999);
-                            this.Device.Player.Avatar.Resources.Set(Resource.Elixir, 999999999);
-                            this.Device.Player.Avatar.Resources.Set(Resource.DarkElixir, 999999999);
-                            this.Device.Player.Avatar.Resources.Set(Resource.Builder_Elixir, 999999999);
-                            this.Device.Player.Avatar.Resources.Set(Resource.Builder_Gold, 999999999);
+                            this.Device.Player.Avatar.Resources.Set(Resource.Diamonds, 200000000);
+                            this.Device.Player.Avatar.Resources.Set(Resource.Gold, 200000000);
+                            this.Device.Player.Avatar.Resources.Set(Resource.Elixir, 200000000);
+                            this.Device.Player.Avatar.Resources.Set(Resource.DarkElixir, 200000000);
+                            this.Device.Player.Avatar.Resources.Set(Resource.Builder_Elixir, 200000000);
+                            this.Device.Player.Avatar.Resources.Set(Resource.Builder_Gold, 200000000);
 
-                            SendChatMessage($"All of your resource amount have been updated to 999999999");
+                            SendChatMessage($"All of your resource amount have been updated to 200000000");
+                            new Own_Home_Data(this.Device).Send();
+                            break;
+
+                        case 10:
+                            this.Device.Player.Avatar.Resources.Set(Resource.Diamonds, 500);
+                            this.Device.Player.Avatar.Resources.Set(Resource.Gold, 8000);
+                            this.Device.Player.Avatar.Resources.Set(Resource.Elixir, 8000);
+                            this.Device.Player.Avatar.Resources.Set(Resource.DarkElixir, 8000);
+                            this.Device.Player.Avatar.Resources.Set(Resource.Builder_Elixir, 8000);
+                            this.Device.Player.Avatar.Resources.Set(Resource.Builder_Gold, 8000);
+                            //this.Device.Player.Avatar.Resources.Set(Resource.Trophies, 1000);
+
+                            SendChatMessage($"All of your resource amount have been updated to 8000");
                             new Own_Home_Data(this.Device).Send();
                             break;
 
@@ -58,9 +71,10 @@ namespace ClashLand.Packets.Debugs
                             this.Help.AppendLine("\t 7 = BuilderGold");
                             this.Help.AppendLine("\t 8 = BuilderElixir");
                             this.Help.AppendLine("\t 9 = All");
+                            this.Help.AppendLine("\t 10 = Default");
                             this.Help.AppendLine();
                             this.Help.AppendLine("Command:");
-                            this.Help.AppendLine("\t/refill {resource-id}");
+                            this.Help.AppendLine("\t/resource {resource-id}");
                             SendChatMessage(Help.ToString());
                             break;
                     }
@@ -76,9 +90,10 @@ namespace ClashLand.Packets.Debugs
                     this.Help.AppendLine("\t 7 = BuilderGold");
                     this.Help.AppendLine("\t 8 = BuilderElixir");
                     this.Help.AppendLine("\t 9 = All");
+                    this.Help.AppendLine("\t 10 = Default");
                     this.Help.AppendLine();
                     this.Help.AppendLine("Command:");
-                    this.Help.AppendLine("\t/refill {resource-id}");
+                    this.Help.AppendLine("\t/resource {resource-id}");
                     SendChatMessage(Help.ToString());
                 }
             }
@@ -93,9 +108,10 @@ namespace ClashLand.Packets.Debugs
                 this.Help.AppendLine("\t 7 = BuilderGold");
                 this.Help.AppendLine("\t 8 = BuilderElixir");
                 this.Help.AppendLine("\t 9 = All");
+                this.Help.AppendLine("\t 10 = Default");
                 this.Help.AppendLine();
                 this.Help.AppendLine("Command:");
-                this.Help.AppendLine("\t/refill {resource-id}");
+                this.Help.AppendLine("\t/resource {resource-id}");
                 SendChatMessage(Help.ToString());
             }
         }

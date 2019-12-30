@@ -12,6 +12,7 @@ using ClashLand.Packets.Messages.Server.Authentication;
 using ClashLand.Logic.Enums;
 using System.Windows.Forms;
 using ClashLandGUI;
+using System.Drawing;
 
 namespace ClashLand.Core.Events
 {
@@ -42,6 +43,8 @@ namespace ClashLand.Core.Events
                         {
                             Console.WriteLine();
                             Console.WriteLine("Press H for help");
+                            Console.ResetColor();
+                            Console.ForegroundColor = ConsoleColor.White;
                             break;
                         }
 
@@ -49,15 +52,22 @@ namespace ClashLand.Core.Events
                     case ConsoleKey.S:
                         {
                             Console.Clear();
-                            Console.ForegroundColor = ConsoleColor.Yellow;
-                            Console.WriteLine("#" + DateTime.Now.ToString("d") + " ---- STATS ---- " +
-                                              DateTime.Now.ToString("T") + " #");
-                            Console.WriteLine("# -------------------------------------- #");
-                            Console.WriteLine("# In-Memory Players    # " +
-                                              Utils.Padding(Players.Levels.Count.ToString(), 15) + " #");
-                            Console.WriteLine("# In-Memory Battles    # " +
-                                              Utils.Padding(Resources.Battles.Seed.ToString(), 15) + " #");
-                            Console.WriteLine("# -------------------------------------- #");
+                            Console.WriteLine(Environment.NewLine);
+                            Consoles.Colorful.Console.Write("                                   # " + DateTime.Now.ToString("d") + " ---- STATS ---- " +
+                                              DateTime.Now.ToString("T") + "  #", Color.LawnGreen);
+                            Console.WriteLine(Environment.NewLine);
+                            Consoles.Colorful.Console.Write("                                   # -------------------------------------- #", Color.LawnGreen);
+                            Console.WriteLine(Environment.NewLine);
+                            Consoles.Colorful.Console.Write("                                   # In-Memory Players    # " +
+                                              Utils.Padding(Players.Levels.Count.ToString(), 15) + " #", Color.LawnGreen);
+                            Console.WriteLine(Environment.NewLine);
+                            Consoles.Colorful.Console.Write("                                   # In-Memory Battles    # " +
+                                              Utils.Padding(Resources.Battles.Seed.ToString(), 15) + " #", Color.LawnGreen);
+                            Console.WriteLine(Environment.NewLine);
+                            Consoles.Colorful.Console.Write("                                   # -------------------------------------- #", Color.LawnGreen);
+                            Console.WriteLine(Environment.NewLine);
+                            Console.ResetColor();
+                            Console.ForegroundColor = ConsoleColor.White;
                             break;
                         }
 
@@ -65,7 +75,7 @@ namespace ClashLand.Core.Events
                         {
                             if (Resources.Classes.Timers.LTimers.Count <= 3)
                             {
-                                Console.WriteLine("Press Y to continue and N to cancle");
+                                Console.WriteLine("Press Y to continue and N to cancel");
                                 ConsoleKeyInfo Command2 = Console.ReadKey(false);
 
                                 switch (Command2.Key)
@@ -94,7 +104,7 @@ namespace ClashLand.Core.Events
 
                                     default:
                                         {
-                                            Console.WriteLine("Press Y to continue and N to cancle");
+                                            Console.WriteLine("Press Y to continue and N to cancel");
                                             break;
                                         }
                                 }
@@ -129,6 +139,8 @@ namespace ClashLand.Core.Events
                                                   " ---- Not in Maintanance Mode---- " + DateTime.Now.ToString("T") +
                                                   " #");
                             }
+                            Console.ResetColor();
+                            Console.ForegroundColor = ConsoleColor.White;
                             break;
                         }
 
@@ -142,32 +154,38 @@ namespace ClashLand.Core.Events
                     case ConsoleKey.H:
                         {
                             Console.Clear();
-                            Console.ForegroundColor = ConsoleColor.Yellow;
-                            Console.WriteLine("# " + DateTime.Now.ToString("d") + " ---- HELP ---- " +
-                                              DateTime.Now.ToString("T") + " #");
-                            Console.WriteLine("# ------------------------------------- #");
-                            Console.WriteLine(((IEnumerable)Process.GetCurrentProcess().Threads)
-                                .OfType<ProcessThread>()
-                                .Count(t => t.ThreadState == ThreadState.Running));
-                            Console.WriteLine("# --------S - Status------------------- #");
-                            Console.WriteLine("# --------M - Maintenace Mode---------- #");
-                            Console.WriteLine("# --------D - Exit Maintenance--------- #");
-                            Console.WriteLine("# --------C - Clear Screen------------- #");
-                            Console.WriteLine("# --------T - Restart Timer------------ #");
-                            Console.WriteLine("# ------F10 - GUI---------------------- #");
-                            Console.WriteLine("# --------E - Exit Server-------------- #");
-                            Console.WriteLine("# ------------------------------------- #");
-                            Console.WriteLine("# -----------In Game Commands---------- #");
-                            Console.WriteLine("# ------------------------------------- #");
-                            Console.WriteLine("# -/resource (0-3:TH - 7,8:BB - 9:ALL)- #");
-                            Console.WriteLine("# -/max_village (0-2:0-TH,1-BB,2-BOTH)- #");
-                            Console.WriteLine("# -/stats - Statistics of a player----- #");
-                            Console.WriteLine("# -/clone - clone a players base------- #");
-                            Console.WriteLine("# -/rank - Create/Edit Server Ranks---- #");
-                            Console.WriteLine("# --(/rank is for Server Owners Only)-- #");
-                            Console.WriteLine("# ------------------------------------- #");
-                            Console.WriteLine("# ------------------------------------- #");
+                            Console.ResetColor();
+                            Console.SetOut(new Prefixed());
+                            Console.SetBufferSize(System.Console.WindowWidth, System.Console.WindowHeight);
+                            Console.WriteLine(Environment.NewLine);
+                            //Console.ForegroundColor = ConsoleColor.Blue;
+                            Consoles.Colorful.Console.Write(@"
+
+                                                    /---- HELP ----\
+                                       # ----------/----------------\--------- #
+                                       # --------S - Status------------------- #
+                                       # --------M - Maintenace Mode---------- #
+                                       # --------D - Exit Maintenance--------- #
+                                       # --------C - Clear Screen------------- # 
+                                       # --------T - Restart Timer------------ #
+                                       # ------F10 - GUI---------------------- #
+                                       # --------E - Exit Server-------------- #
+                                       # ------------------------------------- #
+                                       # -----------In Game Commands---------- #
+                                       # ------------------------------------- #
+                                       # -/resource (0-3:TH - 7,8:BB - 9:ALL)- #
+                                       # -/max_village (0-2:0-TH,1-BB,2-BOTH)- #
+                                       # -/stats - Statistics of a player----- #
+                                       # -/clone - clone a players base------- #
+                                       # -/discordmsg - sends discord msg----- #
+                                       # -/rank - Create/Edit Server Ranks---- #
+                                       # --(/rank is for Server Owners Only)-- #
+                                       # ------------------------------------- #
+                            ", Color.BlueViolet);
+                            Console.ResetColor();
+                            Console.ForegroundColor = ConsoleColor.White;
                             break;
+
                         }
 
                     case ConsoleKey.R:
@@ -186,20 +204,25 @@ namespace ClashLand.Core.Events
                     case ConsoleKey.C:
                         {
                             Console.Clear();
+                            Console.ResetColor();
+                            Console.ForegroundColor = ConsoleColor.White;
                             break;
                         }
 
                     case ConsoleKey.T:
                         {
                             Console.Clear();
-                            Console.ForegroundColor = ConsoleColor.Green;
-                            Console.WriteLine("# " + DateTime.Now.ToString("d") + " ---- ReStart Timer Activated ---- " +
-                            DateTime.Now.ToString("T") + " #");
+                            Console.ResetColor();
+                            //Console.ForegroundColor = ConsoleColor.Green;
+                            Consoles.Colorful.Console.WriteLine("# " + DateTime.Now.ToString("d") + " ---- ReStart Timer Activated ---- " +
+                            DateTime.Now.ToString("T") + " #", Color.Gainsboro);
                             Process ExternalProcess = new Process();
                             ExternalProcess.StartInfo.FileName = "CLS.bat";
                             ExternalProcess.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
                             ExternalProcess.Start();
                             ExternalProcess.WaitForExit();
+                            Console.ResetColor();
+                            Console.ForegroundColor = ConsoleColor.White;
                             break;
                         }
 
@@ -208,11 +231,14 @@ namespace ClashLand.Core.Events
                     case ConsoleKey.F10:
                         {
                             Console.Clear();
-                            Console.ForegroundColor = ConsoleColor.Blue;
-                            Console.WriteLine("# " + DateTime.Now.ToString("d") + " ---- ClashLand GUI Mode ---- " +
-                            DateTime.Now.ToString("T") + " #");
+                            Console.ResetColor();
+                            //Console.ForegroundColor = ConsoleColor.Blue;
+                            Consoles.Colorful.Console.WriteLine("# " + DateTime.Now.ToString("d") + " ---- ClashLand GUI Mode ---- " +
+                            DateTime.Now.ToString("T") + " #", Color.BlueViolet);
                             Process ExternalProcess = new Process();
                             Application.Run(new ClashLandGUI2());
+                            Console.ResetColor();
+                            Console.ForegroundColor = ConsoleColor.White;
                             break;
                         }
                         
@@ -221,6 +247,7 @@ namespace ClashLand.Core.Events
                 }
 
                 Console.ResetColor();
+                Console.ForegroundColor = ConsoleColor.White;
             }
         }
     }

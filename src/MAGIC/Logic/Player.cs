@@ -83,7 +83,7 @@ namespace ClashLand.Logic
         [JsonProperty("token")] internal string Token;
         [JsonProperty("password")] internal string Password;
 
-        [JsonProperty("name")] internal string Name = "notnameyet";
+        [JsonProperty("name")] internal string Name = "Clashology";
         [JsonProperty("IpAddress")] internal string IpAddress;
         [JsonProperty("region")] internal string Region;
         [JsonProperty("alliance_name")] internal string Alliance_Name;
@@ -167,7 +167,7 @@ namespace ClashLand.Logic
         [JsonProperty("gamecenter")] internal Structure.API.Gamecenter Gamecenter;
         [JsonProperty("inbox")] internal Inbox Inbox;
         [JsonProperty("achievements")] public AchievementsSlot Achievements;
-        internal bool Connected;
+
 
         internal bool Banned => this.BanTime > DateTime.UtcNow;
 

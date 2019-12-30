@@ -244,17 +244,8 @@ namespace ClashLand.Files.CSV_Logic
         public bool IsWorker2Building() => BuildingClass == "Worker2";
 
         public Resource GetAltBuildResource(int level) => CSV.Tables.Get(Gamefile.Resources).GetData(AltBuildResource[level]) as Resource;
+
         public override Resource GetBuildResource(int level) => CSV.Tables.Get(Gamefile.Resources).GetData(BuildResource[level]) as Resource;
-        //public Resource GetAmmoResource() => CSV.Tables.Get(Gamefile.Resources).GetData(GetAmmoResource) as Resource;
-        //public Resource GetGearUpResource() => CSV.Tables.Get(Gamefile.Resources).GetData(GetGearUpResource) as Resource;
-        public Resource GetProducesResource() => CSV.Tables.Get(Gamefile.Resources).GetData(ProducesResource) as Resource;
-
-        public Characters GetDefenceTroopCharacter() => CSV.Tables.Get(Gamefile.Characters).GetData(DefenceTroopCharacter) as Characters;
-        public Characters GetDefenceTroopCharacter2() => CSV.Tables.Get(Gamefile.Characters).GetData(DefenceTroopCharacter2) as Characters;
-
-        public Spells GetHitSpell() => CSV.Tables.Get(Gamefile.Spells).GetData(HitSpell) as Spells;
-
-        public Heroes GetHeroType() => CSV.Tables.Get(Gamefile.Heroes).GetData(HeroType) as Heroes;
 
         public List<int> GetMaxStoredResourceCounts(int level)
         {

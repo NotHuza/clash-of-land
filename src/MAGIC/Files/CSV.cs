@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Threading.Tasks;
 using ClashLand.Files.CSV_Reader;
 using ClashLand.Logic.Enums;
 
@@ -35,8 +36,8 @@ namespace ClashLand.Files
             CSV.Gamefiles.Add((int)Gamefile.Achievements, @"Gamefiles/logic/achievements.csv");
             CSV.Tables = new Gamefiles();
 
-            //Parallel.ForEach(CSV.Gamefiles, File => //Parallel is slower in this case (When we have load csv it will help)
-            foreach (var File in CSV.Gamefiles)
+            Parallel.ForEach(CSV.Gamefiles, File => //Parallel is slower in this case (When we have load csv it will help)
+            //foreach (var File in CSV.Gamefiles)
             {
                 if (new FileInfo(File.Value).Exists)
                 {
@@ -44,9 +45,9 @@ namespace ClashLand.Files
                 }
                 else
                 {
-                    throw new FileNotFoundException($"{File.Value} does not exist!");//stuck?
+                    throw new FileNotFoundException($"{File.Value} does not exist!");
                 }
-            }//);
+            });
 
             Console.WriteLine(CSV.Gamefiles.Count + " CSV Files, loaded and stored in memory.\n");
         }
