@@ -2,9 +2,8 @@
 
 ![Image alt text](https://snipboard.io/sRec9M.jpg)
 
-***Cerberus_v2018*** is a _3 Dimension Project_.
-  
-The goal of this project is to ensure a clean, easy-to-die code environment.
+***Cerberus_v2018***
+
 
 
 ## Project Codenames:
