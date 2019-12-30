@@ -11,7 +11,7 @@ All programs are developed by the Clashers Republic Development Team are license
 * MAGIC - Clash of Clans Server
 
 ## Disclaimer
-**ClashLand**'s resources and programs are protected under the license and our policies available on our website.
+**ClashLand**'s resources and programs are protected under the license and our policies available on our website. 
 **ClashLand**'s resources and programs are created by the (**Clashology**) team.  
 **ClashLand** is **NOT** affiliated with '_Supercell, Oy_'.  
 **ClashLand** does **NOT** own '_Clash of Clans_', '_Boom Beach_', '_Clash Royale_', '_Brawl Stars_', and/or '_Hay Day_'.
