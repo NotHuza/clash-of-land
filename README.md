@@ -1,4 +1,4 @@
-## ClashLand - Project - [![Build Status](https://dev.azure.com/Antzsmt/Cerberus_v2018/_apis/build/status/Cerberus_v2018?branchName=master)](https://dev.azure.com/Antberus_v2018/_build/latest?definitionId=4&branchName=master)
+## ClashLand - Project - [![Build Status](https://dev.azure.com/Antzsmt/ClashLand/_apis/build/status/ClashLand?branchName=master)](https://dev.azure.com/Antzsmt/ClashLand/_build/latest?definitionId=2&branchName=master)
 
 ![Image alt text](https://snipboard.io/sRec9M.jpg)
 
