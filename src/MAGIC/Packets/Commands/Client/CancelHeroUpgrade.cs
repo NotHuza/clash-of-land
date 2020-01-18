@@ -1,7 +1,9 @@
-﻿namespace ClashLand.Packets.Commands.Client
+﻿using ClashLand.Logic;
+using ClashLand.Extensions.Binary;
+
+
+namespace ClashLand.Packets.Commands.Client
 {
-    using ClashLand.Logic;
-    using ClashLand.Extensions.Binary;
 
     internal class CancelHeroUpgrade : Command
     {

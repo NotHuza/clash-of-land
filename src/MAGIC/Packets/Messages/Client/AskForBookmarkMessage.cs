@@ -11,12 +11,12 @@ using ClashLand.Packets.Messages.Server;
 
 namespace ClashLand.Packets.Messages.Client
 {
-    // Packet 14341
     internal class AskForBookmarkMessage : Message
     {
         internal int bookmarks;
         public AskForBookmarkMessage(Device Device, Reader Reader) : base(Device, Reader)
         {
+            this.Identifier = 14341;
         }
 
         internal override void Decode()
@@ -26,7 +26,7 @@ namespace ClashLand.Packets.Messages.Client
 
         public void Process(Level level)
         {
-            //new BookmarksListMessage(Device).Send();
+            new BookmarksListMessage(Device).Send();
         }
     }
 }

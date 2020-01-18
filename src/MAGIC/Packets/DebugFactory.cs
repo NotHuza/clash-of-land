@@ -22,7 +22,8 @@ namespace ClashLand.Packets
                 {"help", typeof(help)},
                 {"sysmsg", typeof(sysmsg)},
                 {"discordmsg", typeof(discordmsg)},
-                //{"clear", typeof(Clear_Obstacles)}
+                {"svrstatus", typeof(Server_Status)},
+                {"oba", typeof(Own_Base_Attack)}
             };
         }
     }

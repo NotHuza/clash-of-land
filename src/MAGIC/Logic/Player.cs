@@ -167,7 +167,7 @@ namespace ClashLand.Logic
         [JsonProperty("gamecenter")] internal Structure.API.Gamecenter Gamecenter;
         [JsonProperty("inbox")] internal Inbox Inbox;
         [JsonProperty("achievements")] public AchievementsSlot Achievements;
-
+        internal object Mode;
 
         internal bool Banned => this.BanTime > DateTime.UtcNow;
 

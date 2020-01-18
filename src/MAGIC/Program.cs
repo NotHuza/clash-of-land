@@ -18,6 +18,7 @@ namespace ClashLand
         private static int Width = 120;
         private static int Height = 30;
         public static string Version { get; set; }
+
         internal static Stopwatch Stopwatch = Stopwatch.StartNew();
         public static Stopwatch _Stopwatch = new Stopwatch();
 
@@ -47,7 +48,7 @@ namespace ClashLand
                          \______  /____(____  /____  >___|  /|_______ (____  /___|  /\____ | 
                                 \/          \/     \/     \/         \/    \/     \/      \/ 
                                                Version 9.256 Support (+ v10.134 mod)
-            ", Color.Yellow, Color.Fuchsia, 14);
+            ", Color.OrangeRed, Color.LimeGreen, 14);
             Console.ResetColor();
 
             Console.ForegroundColor = ConsoleColor.White;

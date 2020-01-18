@@ -29,6 +29,7 @@ namespace ClashLand.Logic
         internal IntPtr SocketHandle { get; }
         internal List<byte> Stream { get; }
         internal State State = State.DISCONNECTED;
+        internal object GameMode;
 
         internal uint ClientSeed { get; set; }
 

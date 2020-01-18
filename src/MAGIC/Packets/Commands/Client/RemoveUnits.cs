@@ -1,3 +1,79 @@
+using System.Collections.Generic;
+using ClashLand.Core;
+using ClashLand.Logic;
+using ClashLand.Packets.Commands.Client.List;
+using ClashLand.Extensions.Binary;
+
+
+
+namespace ClashLand.Packets.Commands.Client
+{
+
+    internal class RemoveUnits : Command
+    {
+        internal List<UnitToRemove> UnitsToRemove;
+        public RemoveUnits(Reader Reader, Device Device, int Identifier) : base(Reader, Device, Identifier)
+        {
+        }
+
+        public int Tick { get; private set; }
+
+        internal override void Decode()
+        {
+            int UnitCount = this.Reader.ReadInt32();
+            this.UnitsToRemove = new List<UnitToRemove>(UnitCount);
+
+            for (int i = 0; i < UnitCount; i++)
+            {
+                this.Reader.ReadInt32();
+                this.UnitsToRemove.Add(new UnitToRemove
+                {
+                    Type = this.Reader.ReadInt32(),
+                    Id = this.Reader.ReadInt32(),
+                    Count = this.Reader.ReadInt32()
+                });
+                this.Reader.ReadInt32();
+            }
+
+            base.Decode();
+        }
+
+        internal override void Process()
+        {
+            base.Process();
+        }
+    }
+}
+
+/*internal override void Execute()
+{
+    Level Level = this.Device.GameMode.Level;
+    foreach (UnitToRemove UnitToRemove in this.UnitsToRemove)
+    {
+        if (UnitToRemove.Type == 0)
+        {
+            Item Unit = Level.Player.Units.Find(T => T.Data == UnitToRemove.Id);
+            if (Unit != null)
+            {
+                Unit.Count -= UnitToRemove.Count;
+            }
+        }
+        else if (UnitToRemove.Type == 1)
+        {
+            Item Spell = Level.Player.Spells.Find(T => T.Data == UnitToRemove.Id);
+            if (Spell != null)
+            {
+                Spell.Count -= UnitToRemove.Count;
+            }
+        }
+        else
+        {
+            Logging.Error(this.GetType(), "Unable to remove units. Unknown unit type!");
+        }
+    }
+}
+}
+}*/
 /*using System.Collections.Generic;
 using System.IO;
 using ClashLand.Logic;

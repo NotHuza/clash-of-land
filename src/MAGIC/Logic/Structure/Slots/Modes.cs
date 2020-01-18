@@ -6,6 +6,7 @@ namespace ClashLand.Logic.Structure.Slots
     internal class Modes : List<Slot>
     {
         internal Player Player;
+        internal bool Own_Base_Attack;
 
         internal Modes()
         {
@@ -20,7 +21,7 @@ namespace ClashLand.Logic.Structure.Slots
                 this.Initialize();
         }
 
-        internal bool IsAttackingOwnBase => this.Get(Enums.Mode.ATTACK_OWN_BASE) == 1;
+        internal bool IsAttackingOwnBase => this.Get(Enums.Mode.Own_Base_Attack) == 1;
 
         internal int Get(int Gl_ID)
         {
@@ -64,7 +65,7 @@ namespace ClashLand.Logic.Structure.Slots
 
         internal void Initialize()
         {
-            this.Set(Enums.Mode.ATTACK_OWN_BASE, 0);
+            this.Set(Enums.Mode.Own_Base_Attack, 0);
         }
     }
 }

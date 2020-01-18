@@ -4,6 +4,7 @@ using ClashLand.Commands.Client;
 using ClashLand.Packets.Commands.Client;
 using ClashLand.Packets.Commands.Client.Battle;
 using ClashLand.Packets.Commands.Client.Clan;
+using ClashLand.Packets.Commands.Client.Unknown;
 using ClashLand.Packets.Commands.Server;
 
 namespace ClashLand.Packets
@@ -73,32 +74,41 @@ namespace ClashLand.Packets
                 {544, typeof(EditModeShown)},
                 {545, typeof(Replay)},
                 {546, typeof(EditVillageLayout)},
+                {548, typeof(Finish_Later_Layout)},
                 {549, typeof(Upgrade_Multiple_Buildings)},
-                //{550, typeof(RemoveUnits)}, //old command from older version
+                {550, typeof(RemoveUnits)}, //old command from older version
                 {552, typeof(SaveVillageLayout)},
                 {553, typeof(ClientServerTickCommand)},
                 {554, typeof(Change_Weapon_Heading)},
+                {556, typeof(Unknown_556)},
+                {560, typeof(Unknown_560)},
+                {566, typeof(Unknown_566)},
                 {567, typeof(SetActiveVillageLayout)},
                 {568, typeof(CopyVillageLayout)},
+                {570, typeof(Unknown_570)},
                 {571, typeof(FilterChat)},
                 {573, typeof(ShieldCostSeen)},
                 {574, typeof(Request_Amical_Challenge)},
+                {576, typeof(Unknown_576)},
                 {577, typeof(Swap_Buildings)},
                 {579, typeof(Friend_List_Opened)},
+                {581, typeof(Unknown_581)},
                 {584, typeof(Boost_Building)},
+                {585, typeof(Unknown_585)},
                 {590, typeof(Buy_Multiple_Wall)},
                 {591, typeof(Change_Village_Mode)},
                 {592, typeof(Train_Unit_V2)},
                 {593, typeof(SpeedupTrainV2)},
+                {595, typeof(Clock_Tower_Boost)},
                 {596, typeof(CancelUnitProductionV2)},
                 {597, typeof(EventSeen)},
-                //{598, typeof(Move_Multiple_Buildings_Edit_Mode)},
-                //{599, typeof(Swap_Building_Edit_Mode)},
+                {598, typeof(Layout_Building_Position)},
+                {599, typeof(Swap_Building_Edit_Mode)},
                 {600, typeof(Gear_Up)},
                 {601, typeof(Search_Opponent_2)},
                 {603, typeof(Account_Bound)},
-                //{604, typeof(Builder_Menu_Seen)},
-                //{605, typeof(Challenge_Friend_Cancel)},
+                {604, typeof(Seen_Builder_Menu)},
+                {605, typeof(Unknown_605)},  //Challenge_Friend_Cancel??
                 {700, typeof(Place_Attacker)},
                 {701, typeof(Place_Alliance_Attacker)},
                 {702, typeof(EndAttackPreparation)},

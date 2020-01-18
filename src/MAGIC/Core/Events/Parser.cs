@@ -178,8 +178,11 @@ namespace ClashLand.Core.Events
                                        # -/stats - Statistics of a player----- #
                                        # -/clone - clone a players base------- #
                                        # -/discordmsg - sends discord msg----- #
+                                       # -(/discordmsg - is for Admins Only)-- #
                                        # -/rank - Create/Edit Server Ranks---- #
-                                       # --(/rank is for Server Owners Only)-- #
+                                       # -/rank - is for Admins Only)--------- #
+                                       # -/svrstatus - Server Stats)---------- #
+                                       # -(/svrstatus - is for Admins Only)--- #
                                        # ------------------------------------- #
                             ", Color.BlueViolet);
                             Console.ResetColor();

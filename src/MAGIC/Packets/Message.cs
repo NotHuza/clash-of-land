@@ -36,6 +36,7 @@ namespace ClashLand.Packets
         }
 
         private List<byte> _data;
+        internal string Bookmark;
 
         internal Message(Device Device)
         {

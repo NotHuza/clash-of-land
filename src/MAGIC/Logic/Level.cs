@@ -15,6 +15,7 @@ namespace ClashLand.Logic
         internal GameObjectManager GameObjectManager;
         internal Village_Worker_Manager VillageWorkerManager;
         internal Builder_Village_Worker_Manager BuilderVillageWorkerManager;
+        internal object Variables;
 
         internal Level()
         {

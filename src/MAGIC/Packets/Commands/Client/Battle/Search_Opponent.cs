@@ -12,6 +12,13 @@ namespace ClashLand.Packets.Commands.Client.Battle
         internal long Enemy_ID;
         internal bool Max_Seed_Achieved;
         internal Level Enemy_Player;
+        private object p;
+
+        public Search_Opponent(Device Device, object p) : base(Device)
+        {
+            this.p = p;
+        }
+
         public Search_Opponent(Reader _Reader, Device _Client, int _ID) : base(_Reader, _Client, _ID)
         {
         }
@@ -20,7 +27,8 @@ namespace ClashLand.Packets.Commands.Client.Battle
         {
             this.Reader.ReadInt32();
             this.Reader.ReadInt32();
-            this.Reader.ReadInt32();
+            base.Decode();
+            //this.Reader.ReadInt32();
         }
 
         internal override void Process()

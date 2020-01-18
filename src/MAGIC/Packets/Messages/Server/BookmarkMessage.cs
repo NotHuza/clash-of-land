@@ -1,53 +1,62 @@
-/*using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Threading.Tasks;
+using ClashLand.Extensions.List;
 using ClashLand.Core;
-using ClashLand.Helpers;
+using ClashLand.Files;
 using ClashLand.Logic;
 using ClashLand.Logic.Structure.Slots;
 
 namespace ClashLand.Packets.Messages.Server
 {
-    // Packet 24340
     internal class BookmarkMessage : Message
     {
-        public ClientAvatar player { get; set; }
-        public int i;
+        internal List<long> ToRemove;
 
-        public BookmarkMessage(PacketProcessing.Client client) : base(client)
+        public BookmarkMessage(Device device, string bookmark = null) : base(device)
         {
-            SetMessageType(24340);
-            player = client.GetLevel().GetPlayerAvatar();
+            Identifier = 24340;
+            //this.Bookmark = Bookmark;
+            Bookmark = bookmark;
         }
 
-        public override void Encode()
+        internal override void Encode()
         {
-            var data = new List<byte>();
-            var list = new List<byte>();
-            List<BookmarkSlot> rem = new List<BookmarkSlot>();
-            Parallel.ForEach((player.BookmarkedClan), (p, l) =>
-            {
-                Alliance a = ObjectManager.GetAlliance(p.Value);
-                if (a != null)
-                {
-                    list.AddInt64(p.Value);
-                    i++;
-                }
-                else
-                {
-                    rem.Add(p);
-                    if (i > 0)
-                        i--;
-                }
-                l.Stop();
-            });
-            data.AddInt32(i);   
-            data.AddRange(list);
-            Encrypt(data.ToArray());
-            Parallel.ForEach((rem), (im, l) =>
-             {
-                 player.BookmarkedClan.RemoveAll(t => t == im);
-                 l.Stop();
-             });
+            this.Data.AddInt(0);
+            this.Data.AddInt(0);
+            this.Data.AddString(this.Bookmark);
+        }
+    }
+}
+
+/*public override void Encode()
+{
+    var i = 0;
+    var Avatar = Device.Player.Avatar;
+
+    ToRemove = new List<long>();
+    var list = new List<byte>();
+
+    foreach (var id in Avatar.Bookmarks)
+    {
+        var a = ObjectManager.GetAlliance(id);
+        if (a != null)
+        {
+            list.AddLong(id);
+            i++;
+        }
+        else
+        {
+            ToRemove.Add(id);
+        }
+    }
+    Data.AddInt(i);
+    Data.AddRange(list.ToArray());
+}
+
+public override void Process()
+        {
+            foreach (var id in ToRemove)
+                Device.Player.Avatar.Bookmarks.RemoveAll(t => t == id);
         }
     }
 }*/

@@ -28,6 +28,7 @@ namespace ClashLand.Packets.Debugs
             this.Help.AppendLine("/max_village: upgrade villages to max level");
             this.Help.AppendLine("/rank: {user_id} {rank} (Admins Only)");
             this.Help.AppendLine("/clone: {user_id} copy a players base");
+            this.Help.AppendLine("/svrstatus: Server Status Info (Admins Only)");
             foreach (var _Device in Devices._Devices.Values.ToList())
             {
                 new Global_Chat_Entry(_Device)

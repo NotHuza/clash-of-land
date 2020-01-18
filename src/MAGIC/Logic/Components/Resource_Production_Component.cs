@@ -83,6 +83,7 @@ namespace ClashLand.Logic.Components
                         this.TimeSinceLastClick = ci.Level.Avatar.LastTick;
                     }
 #if DEBUG
+                    Console.ForegroundColor = ConsoleColor.Green;
                     Loggers.Log($"Resource System : Collecting {currentResources} of {this.ProductionResourceData.Name}", true, Defcon.INFO);
 #endif
                     ca.Resources.Plus(this.ProductionResourceData.GetGlobalID(), (int)currentResources);

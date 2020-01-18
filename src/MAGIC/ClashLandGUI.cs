@@ -245,11 +245,11 @@ namespace ClashLandGUI
             {
                 new Global_Chat_Entry(_Device)
                 {
-                    Message = textBox21.Text,
+                    /*Message = textBox21.Text,
                     Message_Sender = this.Device.Player.Avatar,
                     Bot = true,
-                    //Regex = true,
-                    Sender = this.Device == _Device
+                    Regex = true,
+                    Sender = this.Device == _Device*/
                 }.Send();
             }
         }
@@ -257,14 +257,15 @@ namespace ClashLandGUI
         //Send To Mailbox Button
         private void materialRaisedButton10_ClickDevice(object sender, EventArgs e)
         {
-            this.Device = Device;
+            //this.Device = Device;
             var AllianceID = this.Device.Player.Avatar.ClanId;
+
             if (AllianceID > 0)
             {
                 var Clan = Resources.Clans.Get(AllianceID, false);
                 if (Clan != null)
                 {
-                    var mail = new Mail
+                    var Mail = new Mail
                     {
                         Stream_Type = ClashLand.Logic.Enums.Avatar_Stream.CLAN_MAIL,
                         Sender_ID = 29,
@@ -274,9 +275,9 @@ namespace ClashLandGUI
                         Alliance_ID = 0,
                         Message = textBox24.Text
                     };
-                    foreach (var _Device in Devices._Devices.Values.ToList())
+                    foreach (Member Member in Clan.Members.Values)
                     {
-                        _Device.Player.Avatar.Inbox.Add(mail);
+                        Member.Player.Avatar.Inbox.Add(Mail);
                     }
                 };
             }
@@ -314,15 +315,12 @@ namespace ClashLandGUI
 
                 foreach (var _Device in Devices._Devices.Values.ToList())
                 {
+                    
                     new Global_Chat_Entry(_Device)
                     {
                         Message = Message,
                         Bot = true,
                         Message_Sender = null,
-                        //HomeId = 0,
-                        //CurrentHomeId = 0,
-                        //LeagueId = 22,
-                        //PlayerName = Name
                     }.Send();
                 }
 

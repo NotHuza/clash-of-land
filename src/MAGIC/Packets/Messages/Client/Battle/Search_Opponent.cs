@@ -17,7 +17,7 @@ namespace ClashLand.Packets.Messages.Client.Battle
         internal bool Max_Seed_Achieved;
         internal Level Enemy_Player;
 
-        public Search_Opponent(Device device) : base(device)
+        public Search_Opponent(Device device, object p) : base(device)
         {
             // Search_Opponent.
         }

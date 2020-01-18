@@ -134,7 +134,7 @@
             this.tabPage1.Controls.Add(this.materialLabel1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(700, 354);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Main";
@@ -276,9 +276,9 @@
             this.materialLabel10.Location = new System.Drawing.Point(390, 103);
             this.materialLabel10.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel10.Name = "materialLabel10";
-            this.materialLabel10.Size = new System.Drawing.Size(81, 19);
+            this.materialLabel10.Size = new System.Drawing.Size(51, 19);
             this.materialLabel10.TabIndex = 9;
-            this.materialLabel10.Text = "DB Tables:";
+            this.materialLabel10.Text = "Clans:";
             // 
             // materialLabel9
             // 
@@ -390,7 +390,7 @@
             this.tabPage3.Controls.Add(this.materialLabel23);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(700, 354);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Config Editor";
@@ -620,7 +620,7 @@
             this.tabPage6.Controls.Add(this.groupBox1);
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage6.Size = new System.Drawing.Size(700, 354);
             this.tabPage6.TabIndex = 3;
             this.tabPage6.Text = "Mail ";
@@ -836,7 +836,7 @@
             this.textBox24.Name = "textBox24";
             this.textBox24.Size = new System.Drawing.Size(334, 78);
             this.textBox24.TabIndex = 4;
-            this.textBox24.Text = "Visit http://antzps.ddns.net";
+            this.textBox24.Text = "Visit http://clashland.ddns.net";
             // 
             // textBox23
             // 
@@ -928,14 +928,14 @@
             this.textBox21.Name = "textBox21";
             this.textBox21.Size = new System.Drawing.Size(318, 78);
             this.textBox21.TabIndex = 0;
-            this.textBox21.Text = "Visit http://antzps.ddns.net";
+            this.textBox21.Text = "Visit http://clashland.ddns.net";
             // 
             // tabPage8
             // 
             this.tabPage8.Controls.Add(this.materialLabel40);
             this.tabPage8.Location = new System.Drawing.Point(4, 22);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage8.Size = new System.Drawing.Size(700, 354);
             this.tabPage8.TabIndex = 5;
             this.tabPage8.Text = "About";

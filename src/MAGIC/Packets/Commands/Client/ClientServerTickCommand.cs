@@ -8,7 +8,7 @@ namespace ClashLand.Commands.Client
     internal class ClientServerTickCommand : Command
     {
         public int Tick;
-        public int Unknown1;
+        internal int Unknown1;
 
         public ClientServerTickCommand(Reader reader, Device client, int id) : base(reader, client, id)
         {
@@ -17,7 +17,8 @@ namespace ClashLand.Commands.Client
         internal override void Decode()
         {
             this.Unknown1 = this.Reader.ReadInt32();
-            this.Tick = this.Reader.ReadInt32();
+            base.Decode();
+            //this.Tick = this.Reader.ReadInt32();
         }
     }
 }

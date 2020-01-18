@@ -10,11 +10,11 @@ using MySql.Data.MySqlClient.Memcached;
 
 namespace ClashLand.Packets.Messages.Client
 {
-    // Packet 14343
     internal class AddToBookmarkMessage : Message
     {
         public AddToBookmarkMessage(Device Device, Reader Reader) : base(Device, Reader)
         {
+            this.Identifier = 14343;
         }
 
         /*private long id;
@@ -35,5 +35,16 @@ namespace ClashLand.Packets.Messages.Client
             var user = DatabaseManager.Single().Save(level);
             user.Wait();
         }*/
+        internal override void Decode()
+        {
+            this.Debug();
+        }
+
+
+
+        internal override void Process()
+        {
+            base.Process();
+        }
     }
 }
