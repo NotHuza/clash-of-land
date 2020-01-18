@@ -36,6 +36,10 @@ namespace ClashLand.Core
             Gateway.Listen();
             Resources.Api = new WebApi();
             Resources.Parser = new Parser();
+             if (Constants.UseDiscord)
+            {
+                Client.Initialize();
+            }
         }
     }
 }
